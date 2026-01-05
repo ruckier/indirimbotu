@@ -1,0 +1,42 @@
+name: İndirim Takip Botu
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Her saat başı çalışır (Örn: 13:00, 14:00...)
+  workflow_dispatch:      # Manuel olarak tetiklemek için buton ekler
+
+jobs:
+  check-prices:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Depoyu Çek (Checkout)
+      uses: actions/checkout@v3
+
+    - name: Python Kurulumu
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Kütüphaneleri Yükle
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install playwright
+        playwright install chromium
+        playwright install-deps
+
+    - name: Botu Çalıştır
+      env:
+        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      run: python tracker.py
+
+    - name: Fiyatları Kaydet (Commit & Push)
+      run: |
+        git config --global user.name "GitHub Actions Bot"
+        git config --global user.email "actions@github.com"
+        git add prices.json
+        # Eğer değişiklik varsa commit et, yoksa hata verme
+        git commit -m "Fiyatlar güncellendi [skip ci]" || echo "Değişiklik yok"
+        git push

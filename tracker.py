@@ -240,7 +240,8 @@ def main():
     with sync_playwright() as p:
         # Stealth Tarayıcı Başlatma
         browser = p.chromium.launch(
-            headless=False, # Debug için şimdilik False yapalım, izleyelim. Production'da True.
+            # Github Actions veya sunucuda ise headless=True olsun, değilse False
+            headless=True if os.environ.get("GITHUB_ACTIONS") else False,
             args=["--disable-blink-features=AutomationControlled"]
         )
         context = browser.new_context(
