@@ -5,6 +5,10 @@ on:
     - cron: '0 * * * *'  # Her saat başı çalışır (Örn: 13:00, 14:00...)
   workflow_dispatch:      # Manuel olarak tetiklemek için buton ekler
 
+permissions:
+  contents: write
+
+
 jobs:
   check-prices:
     runs-on: ubuntu-latest
