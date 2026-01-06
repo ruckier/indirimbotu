@@ -3,9 +3,10 @@ import os
 import time
 import random
 import requests
+import re
 from playwright.sync_api import sync_playwright
 from playwright_stealth import Stealth
-from fake_useragent import UserAgent
+# from fake_useragent import UserAgent (Gerek kalmadı, elle veriyoruz)
 
 # --- AYARLAR ---
 URLS_FILE = "urls.txt"
@@ -55,14 +56,10 @@ def check_new_urls():
         with open(URLS_FILE, "r") as f:
             existing_urls = [line.strip() for line in f if line.strip()]
 
-    processed_update_ids = []
-
     for update in updates:
         if "message" in update and "text" in update["message"]:
             text = update["message"]["text"]
             chat_id = str(update["message"]["chat"]["id"])
-            
-            # Sadece bizim chat_id'den gelen komutları kabul et (Güvenlik)
             if chat_id != config.TELEGRAM_CHAT_ID: continue
             
             if text.startswith("/ekle "):
@@ -83,7 +80,6 @@ def send_telegram_photo(message, photo_path):
 
     url = f"https://api.telegram.org/bot{config.TELEGRAM_TOKEN}/sendPhoto"
     payload = {"chat_id": config.TELEGRAM_CHAT_ID, "caption": message}
-    
     try:
         with open(photo_path, 'rb') as f:
             files = {'photo': f}
@@ -107,131 +103,110 @@ def save_prices(data):
 
 # --- İNSAN TAKLİDİ VE YARDIMCILAR ---
 def simulate_human_behavior(page):
-    """Mouse hareketleri ve scroll ile insan taklidi yapar."""
     try:
-        # Rastgele mouse hareketleri
         for _ in range(random.randint(2, 5)):
             x = random.randint(100, 1000)
             y = random.randint(100, 800)
             page.mouse.move(x, y, steps=random.randint(5, 20))
             time.sleep(random.uniform(0.1, 0.5))
-        
-        # Rastgele scroll
         page.mouse.wheel(0, random.randint(100, 500))
         time.sleep(random.uniform(0.5, 2.0))
-        page.mouse.wheel(0, -random.randint(50, 200)) # Geri çık
+        page.mouse.wheel(0, -random.randint(50, 200))
         time.sleep(random.uniform(0.5, 1.5))
     except Exception as e:
         print(f"Human behavior hatası: {e}")
 
 def parse_price(text):
     if not text: return None
-    # TL, simge vs temizle
     clean = text.replace("TL", "").replace("tl", "").replace("\n", "").strip()
-    # 1.250,50 formatına uygun temizlik
     clean = clean.replace(".", "").replace(",", ".") 
-    # Sadece sayı ve nokta kalsın
     clean = "".join([c for c in clean if c.isdigit() or c == '.'])
     try:
         return float(clean)
     except:
         return None
 
-# --- SCRAPER (VERİ ÇEKİCİ) ---
+def find_price_in_text(text):
+    # Metin içindeki 1.250,00 TL veya 1250 TL gibi ifadeleri bulur
+    matches = re.findall(r'([\d\.,]+)\s*(?:TL|tl)', text)
+    if not matches:
+        matches = re.findall(r'(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})?)', text)
+    
+    if matches:
+        for m in matches:
+            val = parse_price(m)
+            if val and 10 < val < 100000: # Mantıklı fiyat aralığı
+                return val
+    return None
 
+# --- SCRAPER (VERİ ÇEKİCİ) ---
 def process_gsstore(page, url):
     products = []
     print(f"GSSTORE: {url}")
     
-    # Sayfa Başlığı
-    print(f"   Sayfa Başlığı: {page.title()}")
+    try:
+        print(f"   Sayfa Başlığı: {page.title()}")
+    except: pass
 
-    # Alternatif Selectorler
-    selectors = [".product-item", ".product-item-info", "li.item.product"]
-    items = []
-    
-    for sel in selectors:
-        count = page.locator(sel).count()
-        if count > 0:
-            print(f"   Selector '{sel}' ile {count} ürün bulundu.")
-            items = page.locator(sel).all()
-            break
-            
+    # Ürünleri topla
+    items = page.locator(".product-item").all()
+    if not items:
+        items = page.locator(".product-item-info").all()
+
     if not items:
         print("!!! HİÇ ÜRÜN BULUNAMADI !!!")
-        print("Sayfa HTML Özeti (Body):")
         try:
-            body_html = page.inner_html("body")
-            print(body_html[:1000]) # İlk 1000 karakteri bas
-        except:
-            print("HTML alınamadı.")
-            
+            print(page.inner_html("body")[:500])
+        except: pass
         return []
 
-    counter = 0
+    print(f"   {len(items)} adet kart inceleniyor...")
+    
     for item in items:
-        counter += 1
         try:
-            # DEBUG: İlk 3 ürünün detayını görelim
-            if counter <= 3:
-                print(f"--- ANALİZ ÜRÜN {counter} ---")
-                print(f"HTML Çıktısı: {item.inner_html()[:200]}...") # İlk 200 karakter
-
-            # Ürün Adı
-            name = "İsimsiz Ürün"
-            name_el = item.locator(".product-item-link").first
-            if name_el.count() > 0:
-                name = name_el.inner_text().strip()
+            # Tüm kartın metnini al
+            full_text = item.inner_text().replace("\n", " ")
+            price = find_price_in_text(full_text)
             
-            if counter <= 3: print(f"   Bulunan İsim: {name}")
-
-            # Link
-            href = None
+            name = "İsimsiz Ürün"
+            
+            # 1. Yöntem: Link
             link_el = item.locator("a").first
-            try:
-                href = link_el.get_attribute("href", timeout=500)
-            except:
-                pass
+            href = link_el.get_attribute("href")
+            
+            if link_el.count() > 0:
+                name_candidate = link_el.get_attribute("title")
+                if not name_candidate:
+                    name_candidate = link_el.inner_text().strip()
+                if name_candidate and len(name_candidate) > 3: 
+                    name = name_candidate
 
+            # 2. Yöntem: Class tarama
+            if len(name) < 5 or "İsimsiz" in name:
+                possible_names = item.locator("[class*='name'], [class*='title']").all_inner_texts()
+                for p in possible_names:
+                     if len(p.strip()) > 5:
+                         name = p.strip()
+                         break
+            
             full_link = None
             if href:
                 full_link = href if href.startswith("http") else "https://www.gsstore.org" + href
-            
-            if counter <= 3: print(f"   Bulunan Link: {full_link}")
 
-            # Fiyat
-            price = None
-            price_el = item.locator(".price-box .price").first
-            
-            raw_price_text = "YOK"
-            if price_el.count() > 0:
-                 raw_price_text = price_el.inner_text()
-                 price = parse_price(raw_price_text)
-            
-            if counter <= 3: 
-                print(f"   Bulunan Fiyat Text: {raw_price_text}")
-                print(f"   Parse Edilen Fiyat: {price}")
-            
             if full_link and price:
+                if str(price) in name:
+                    name = name.replace(str(price), "").replace("TL", "").strip()
                 products.append({"name": name, "url": full_link, "price": price})
-                print(f"   + EKLENDİ: {name} - {price} TL") 
-            else:
-                if counter <= 3: print("   ! EKLENMEDİ (Eksik Veri)")
-
+                
         except Exception as e: 
-            print(f"Ürün hatası (Atlanıyor): {e}")
             continue
             
     return products
 
-
 # --- ANA MOTOR ---
 def main():
     print("Bot Calisiyor... (Stealth Mode: ON)")
-    
-    # Önce yeni emirler var mı diye bak
     check_new_urls()
-    
     discount_found = False
     
     if not os.path.exists(URLS_FILE):
@@ -244,36 +219,29 @@ def main():
     old_prices = load_prices()
     new_prices = old_prices.copy()
     
-    # ua = UserAgent()
-    # user_agent = ua.random
-    # Mobil siteyi engellemek için SABİT Masaüstü User-Agent kullanıyoruz
+    # User-Agent: Masaüstü Sabit
     user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     print(f"User-Agent: {user_agent}")
 
     with sync_playwright() as p:
-        # Stealth Tarayıcı Başlatma
         browser = p.chromium.launch(
-            # Github Actions veya sunucuda ise headless=True olsun, değilse False
             headless=True if os.environ.get("GITHUB_ACTIONS") else False,
             args=["--disable-blink-features=AutomationControlled"]
         )
         context = browser.new_context(
             user_agent=user_agent,
-            viewport={"width": 1366, "height": 768},
+            viewport={"width": 1920, "height": 1080},
             locale="tr-TR",
             timezone_id="Europe/Istanbul"
         )
         
         page = context.new_page()
-        # STEALTH PLUGİN AKTİF
         Stealth().apply_stealth_sync(page)
 
         for url in urls:
             try:
                 print(f"\nSiteye Gidiliyor: {url}")
                 page.goto(url, timeout=90000, wait_until="domcontentloaded")
-                
-                # İnsan gibi bekle ve hareket et
                 time.sleep(random.uniform(2, 5))
                 simulate_human_behavior(page)
                 
@@ -286,41 +254,33 @@ def main():
                 
                 print(f"   -> {len(found_products)} ürün çekildi.")
                 
-
-                # Fiyat Kontrolü
                 for prod in found_products:
                     uid = prod["url"]
                     price = prod["price"]
                     name = prod["name"]
                     
                     last_updated = time.time()
-                    price_changed = True # Varsayılan olarak değişti kabul et (ilk kez ekleniyorsa)
+                    price_changed = True
 
                     if uid in old_prices:
                         old_price = old_prices[uid]["price"]
-                        
-                        # Eğer fiyat değişmediyse, updated_at'i DEĞİŞTİRME (Commit kirliliğini önle!)
                         if price == old_price:
                             price_changed = False
                             last_updated = old_prices[uid]["updated_at"]
-                        
                         elif price < old_price:
-                            # İndirim VAR!
                             discount = int(((old_price - price) / old_price) * 100)
                             if discount >= 5:
                                 msg = f"INDIRIM! (%{discount})\n\n{name}\nEski: {old_price} TL\nYeni: {price} TL\nLink: {uid}"
                                 print(f"   Bildirim: {name}")
                                 
-                                # Ekran Görüntüsü Al
                                 screenshot_path = f"screenshot_{int(time.time())}.png"
                                 try:
                                     page.screenshot(path=screenshot_path)
                                     send_telegram_photo(msg, screenshot_path)
-                                    os.remove(screenshot_path) # Resmi gönderdikten sonra sil
+                                    os.remove(screenshot_path)
                                 except Exception as err:
                                     print(f"Screenshot hatası: {err}")
-                                    send_telegram(msg) # Resim atamazsan normal mesaj at
-                                
+                                    send_telegram(msg)
                                 discount_found = True
                     
                     new_prices[uid] = {
@@ -328,9 +288,7 @@ def main():
                         "price": price,
                         "updated_at": last_updated
                     }
-                    
-                time.sleep(random.uniform(3, 7)) # Rastgele bekleme
-                
+                time.sleep(random.uniform(3, 7))
             except Exception as e:
                 print(f"Genel Hata ({url}): {e}")
 
