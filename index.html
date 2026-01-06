@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İndirim Botu Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="background-glob"></div>
+    
+    <div class="container">
+        <header>
+            <div class="logo-area">
+                <i class="fa-solid fa-robot"></i>
+                <h1>İndirim<span class="highlight">Botu</span></h1>
+            </div>
+            <div class="status-badge" id="last-update">
+                <i class="fa-regular fa-clock"></i>
+                <span>Güncelleniyor...</span>
+            </div>
+        </header>
+
+        <div class="stats-container">
+            <div class="stat-card">
+                <h3>Takip Edilen</h3>
+                <p id="total-count">-</p>
+            </div>
+            <div class="stat-card">
+                <h3>En Düşük Fiyat</h3>
+                <p id="min-price">-</p>
+            </div>
+            <div class="stat-card">
+                <h3>Son Kontrol</h3>
+                <p id="check-time">-</p>
+            </div>
+        </div>
+
+        <main id="products-grid" class="products-grid">
+            <!-- Ürünler buraya JS ile gelecek -->
+            <div class="loading">
+                <div class="spinner"></div>
+                Veriler yükleniyor...
+            </div>
+        </main>
+        
+        <footer>
+            <p>Github Actions tarafından güçlendirilmiştir 🚀</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
