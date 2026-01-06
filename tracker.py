@@ -238,6 +238,7 @@ def process_gsstore(page, url):
 
 # --- ANA MOTOR ---
 def main():
+    print("--- V2.1 INFINITE SCROLL ---")
     print("Bot Calisiyor... (Stealth Mode: ON)")
     check_new_urls()
     discount_found = False
