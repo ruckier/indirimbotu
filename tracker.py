@@ -173,8 +173,16 @@ def process_gsstore(page, url):
         print(f"   Sayfa Başlığı: {page.title()}")
     except: pass
 
+    # SCROLL ÇAĞRISI (Ürünleri yükle)
+    print("   [DEBUG] process_gsstore içinde scroll başlatılıyor...")
+    simulate_human_behavior(page)
+    time.sleep(2)
+
     # Ürünleri topla
     items = page.locator(".product-item").all()
+    if not items:
+        # Tekrar dene (belki scroll sonrası DOM değişti)
+        items = page.locator(".product-item").all()
     if not items:
         items = page.locator(".product-item-info").all()
 
@@ -268,7 +276,7 @@ def main():
                 print(f"\nSiteye Gidiliyor: {url}")
                 page.goto(url, timeout=90000, wait_until="domcontentloaded")
                 time.sleep(random.uniform(2, 5))
-                simulate_human_behavior(page)
+                # simulate_human_behavior(page) -> KALDIRILDI, process_gsstore icine tasindi
                 
                 found_products = []
                 if "gsstore" in url:
