@@ -103,16 +103,30 @@ def save_prices(data):
 
 # --- İNSAN TAKLİDİ VE YARDIMCILAR ---
 def simulate_human_behavior(page):
+    """Sayfanın sonuna kadar scroll yaparak lazy load tetikler."""
     try:
-        for _ in range(random.randint(2, 5)):
-            x = random.randint(100, 1000)
-            y = random.randint(100, 800)
-            page.mouse.move(x, y, steps=random.randint(5, 20))
-            time.sleep(random.uniform(0.1, 0.5))
-        page.mouse.wheel(0, random.randint(100, 500))
-        time.sleep(random.uniform(0.5, 2.0))
-        page.mouse.wheel(0, -random.randint(50, 200))
-        time.sleep(random.uniform(0.5, 1.5))
+        print("   Sayfa aşağı kaydırılıyor (Lazy Load)...")
+        # Önceki yükseklik
+        last_height = page.evaluate("document.body.scrollHeight")
+        
+        while True:
+            # En aşağı in
+            page.mouse.wheel(0, 15000) # Tekerleği çevir
+            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            time.sleep(2) # Yüklenmesini bekle
+            
+            # Yeni yükseklik
+            new_height = page.evaluate("document.body.scrollHeight")
+            if new_height == last_height:
+                break # Daha fazla yüklenen bir şey yok
+            last_height = new_height
+            
+            # Biraz yukarı çıkıp tekrar in (İnsan gibi)
+            page.mouse.wheel(0, -500)
+            time.sleep(0.5)
+            
+        print("   Scroll tamamlandı.")
+        
     except Exception as e:
         print(f"Human behavior hatası: {e}")
 
