@@ -178,5 +178,1860 @@
         "name": "Galatasaray Premium Basic T-Shirt E251136",
         "price": 1399.99,
         "updated_at": 1767732241.359246
+    },
+    "https://www.gsstore.org/galatasaray-premium-basic-t-shirt-e251136-1/": {
+        "name": "Galatasaray Premium Basic T-Shirt E251136",
+        "price": 1399.99,
+        "updated_at": 1767733113.715524
+    },
+    "https://www.gsstore.org/galatasaray-premium-basic-t-shirt-e251136-2/": {
+        "name": "Galatasaray Premium Basic T-Shirt E251136",
+        "price": 1399.99,
+        "updated_at": 1767733113.7155254
+    },
+    "https://www.gsstore.org/galatasaray-wilfried-singo-welcome-tee-e251577/": {
+        "name": "Galatasaray Wilfried Singo Welcome Tee E251577",
+        "price": 799.99,
+        "updated_at": 1767733113.7155266
+    },
+    "https://www.gsstore.org/galatasaray-5-yildiz-t-shirt-e251352-2-3/": {
+        "name": "Galatasaray 5 Yıldız T-Shirt E251352-2",
+        "price": 699.99,
+        "updated_at": 1767733113.7155282
+    },
+    "https://www.gsstore.org/galatasaray-5-yildiz-t-shirt-e251352-2-1/": {
+        "name": "Galatasaray 5 Yıldız T-Shirt E251352-2",
+        "price": 699.99,
+        "updated_at": 1767733113.7155294
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252176-3/": {
+        "name": "Galatasaray Erkek T-Shirt E252176",
+        "price": 1199.99,
+        "updated_at": 1767733113.715531
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252138-2/": {
+        "name": "Galatasaray Erkek T-Shirt E252138",
+        "price": 1299.99,
+        "updated_at": 1767733113.7155397
+    },
+    "https://www.gsstore.org/galatasaray-erkek-esofman-takim-e252126/": {
+        "name": "Galatasaray Erkek Eşofman Takım E252126",
+        "price": 3999.99,
+        "updated_at": 1767733113.7155428
+    },
+    "https://www.gsstore.org/galatasaray-erkek-ceket-e252117-2/": {
+        "name": "Galatasaray Erkek Ceket E252117",
+        "price": 4999.99,
+        "updated_at": 1767733113.7155442
+    },
+    "https://www.gsstore.org/galatasaray-erkek-yarim-zip-hoodie-e252107-3/": {
+        "name": "Galatasaray Erkek Yarım Zip Hoodie E252107",
+        "price": 2799.99,
+        "updated_at": 1767733113.7155454
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252101/": {
+        "name": "Galatasaray Erkek T-Shirt E252101",
+        "price": 999.99,
+        "updated_at": 1767733113.7155461
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252098-2/": {
+        "name": "Galatasaray Erkek T-Shirt E252098",
+        "price": 1049.99,
+        "updated_at": 1767733113.7155473
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252098/": {
+        "name": "Galatasaray Erkek T-Shirt E252098",
+        "price": 1049.99,
+        "updated_at": 1767733113.7155492
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252097-1/": {
+        "name": "Galatasaray Erkek T-Shirt E252097",
+        "price": 999.99,
+        "updated_at": 1767733113.7155502
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252097-3/": {
+        "name": "Galatasaray Erkek T-Shirt E252097",
+        "price": 999.99,
+        "updated_at": 1767733113.7155511
+    },
+    "https://www.gsstore.org/galatasaray-erkek-yarim-zip-hoodie-e252107-1/": {
+        "name": "Galatasaray Erkek Yarım Zip Hoodie E252107",
+        "price": 2799.99,
+        "updated_at": 1767733113.7155523
+    },
+    "https://www.gsstore.org/galatasaray-erkek-yarim-zip-hoodie-e252107/": {
+        "name": "Galatasaray Erkek Yarım Zip Hoodie E252107",
+        "price": 2799.99,
+        "updated_at": 1767733113.7155535
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252090/": {
+        "name": "Galatasaray Erkek T-Shirt E252090",
+        "price": 999.99,
+        "updated_at": 1767733113.7155547
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252092/": {
+        "name": "Galatasaray Erkek T-Shirt E252092",
+        "price": 899.99,
+        "updated_at": 1767733113.7155564
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252093/": {
+        "name": "Galatasaray Erkek T-Shirt E252093",
+        "price": 999.99,
+        "updated_at": 1767733113.7155576
+    },
+    "https://www.gsstore.org/galatasaray-erkek-yelek-e252134/": {
+        "name": "Galatasaray Erkek Yelek E252134",
+        "price": 3999.99,
+        "updated_at": 1767733113.7155592
+    },
+    "https://www.gsstore.org/galatasaray-erkek-hoodie-e252136-4/": {
+        "name": "Galatasaray Erkek Hoodie E252136",
+        "price": 2799.99,
+        "updated_at": 1767733113.7155602
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sweatshirt-e252137-1/": {
+        "name": "Galatasaray Erkek Sweatshirt E252137",
+        "price": 2499.99,
+        "updated_at": 1767733113.7155614
+    },
+    "https://www.gsstore.org/galatasaray-erkek-hoodie-e252110-1/": {
+        "name": "Galatasaray Erkek Hoodie E252110",
+        "price": 1999.99,
+        "updated_at": 1767733113.7155626
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252176-2/": {
+        "name": "Galatasaray Erkek T-Shirt E252176",
+        "price": 1199.99,
+        "updated_at": 1767733113.7155643
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252138-1/": {
+        "name": "Galatasaray Erkek T-Shirt E252138",
+        "price": 1299.99,
+        "updated_at": 1767733113.7155657
+    },
+    "https://www.gsstore.org/galatasaray-erkek-yelek-e252135/": {
+        "name": "Galatasaray Erkek Yelek E252135",
+        "price": 3999.99,
+        "updated_at": 1767733113.7155666
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sweatshirt-e252137-10/": {
+        "name": "Galatasaray Erkek Sweatshirt E252137",
+        "price": 2499.99,
+        "updated_at": 1767733113.7155678
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252138/": {
+        "name": "Galatasaray Erkek T-Shirt E252138",
+        "price": 1299.99,
+        "updated_at": 1767733113.7155685
+    },
+    "https://www.gsstore.org/galatasaray-erkek-yelek-e252134-1/": {
+        "name": "Galatasaray Erkek Yelek E252134",
+        "price": 3999.99,
+        "updated_at": 1767733113.7155728
+    },
+    "https://www.gsstore.org/galatasaray-erkek-mont-e252133-1/": {
+        "name": "Galatasaray Erkek Mont E252133",
+        "price": 5999.99,
+        "updated_at": 1767733113.7155738
+    },
+    "https://www.gsstore.org/galatasaray-erkek-mont-e252133/": {
+        "name": "Galatasaray Erkek Mont E252133",
+        "price": 5999.99,
+        "updated_at": 1767733113.715575
+    },
+    "https://www.gsstore.org/galatasaray-erkek-mont-e252132-3/": {
+        "name": "Galatasaray Erkek Mont E252132",
+        "price": 5799.99,
+        "updated_at": 1767733113.7155762
+    },
+    "https://www.gsstore.org/galatasaray-erkek-mont-e252132-2/": {
+        "name": "Galatasaray Erkek Mont E252132",
+        "price": 5799.99,
+        "updated_at": 1767733113.7155774
+    },
+    "https://www.gsstore.org/galatasaray-erkek-mont-e252132/": {
+        "name": "Galatasaray Erkek Mont E252132",
+        "price": 5799.99,
+        "updated_at": 1767733113.7155783
+    },
+    "https://www.gsstore.org/galatasaray-erkek-mont-e252132-1/": {
+        "name": "Galatasaray Erkek Mont E252132",
+        "price": 5799.99,
+        "updated_at": 1767733113.7155795
+    },
+    "https://www.gsstore.org/galatasaray-erkek-yagmurluk-e252122-1/": {
+        "name": "Galatasaray Erkek Yağmurluk E252122",
+        "price": 4999.99,
+        "updated_at": 1767733113.7155807
+    },
+    "https://www.gsstore.org/galatasaray-erkek-ceket-e252123/": {
+        "name": "Galatasaray Erkek Ceket E252123",
+        "price": 3499.99,
+        "updated_at": 1767733113.7155814
+    },
+    "https://www.gsstore.org/galatasaray-erkek-zip-hoodie-e252113/": {
+        "name": "Galatasaray Erkek Zip Hoodie E252113",
+        "price": 2499.99,
+        "updated_at": 1767733113.7155826
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sweatshirt-e252111-2/": {
+        "name": "Galatasaray Erkek Sweatshirt E252111",
+        "price": 1799.99,
+        "updated_at": 1767733113.715584
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252097/": {
+        "name": "Galatasaray Erkek T-Shirt E252097",
+        "price": 999.99,
+        "updated_at": 1767733113.715585
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252097-2/": {
+        "name": "Galatasaray Erkek T-Shirt E252097",
+        "price": 999.99,
+        "updated_at": 1767733113.715586
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252096/": {
+        "name": "Galatasaray Erkek T-Shirt E252096",
+        "price": 899.99,
+        "updated_at": 1767733113.7155871
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252097-4/": {
+        "name": "Galatasaray Erkek T-Shirt E252097",
+        "price": 999.99,
+        "updated_at": 1767733113.715588
+    },
+    "https://www.gsstore.org/galatasaray-erkek-yagmurluk-e252122/": {
+        "name": "Galatasaray Erkek Yağmurluk E252122",
+        "price": 4999.99,
+        "updated_at": 1767733113.715589
+    },
+    "https://www.gsstore.org/galatasaray-erkek-yagmurluk-e252119/": {
+        "name": "Galatasaray Erkek Yağmurluk E252119",
+        "price": 5499.99,
+        "updated_at": 1767733113.7155902
+    },
+    "https://www.gsstore.org/galatasaray-erkek-ceket-e252118-4/": {
+        "name": "Galatasaray Erkek Ceket E252118",
+        "price": 4999.99,
+        "updated_at": 1767733113.715591
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252098-4/": {
+        "name": "Galatasaray Erkek T-Shirt E252098",
+        "price": 1049.99,
+        "updated_at": 1767733113.7155921
+    },
+    "https://www.gsstore.org/galatasaray-erkek-yagmurluk-e252119-1/": {
+        "name": "Galatasaray Erkek Yağmurluk E252119",
+        "price": 5499.99,
+        "updated_at": 1767733113.715593
+    },
+    "https://www.gsstore.org/galatasaray-erkek-ceket-e252118/": {
+        "name": "Galatasaray Erkek Ceket E252118",
+        "price": 4999.99,
+        "updated_at": 1767733113.7155943
+    },
+    "https://www.gsstore.org/galatasaray-erkek-ceket-e252117/": {
+        "name": "Galatasaray Erkek Ceket E252117",
+        "price": 4999.99,
+        "updated_at": 1767733113.7155972
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252100-2/": {
+        "name": "Galatasaray Erkek T-Shirt E252100",
+        "price": 799.99,
+        "updated_at": 1767733113.715598
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252100/": {
+        "name": "Galatasaray Erkek T-Shirt E252100",
+        "price": 799.99,
+        "updated_at": 1767733113.715602
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252099-2/": {
+        "name": "Galatasaray Erkek T-Shirt E252099",
+        "price": 999.99,
+        "updated_at": 1767733113.715603
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e252098-1/": {
+        "name": "Galatasaray Erkek T-Shirt E252098",
+        "price": 1049.99,
+        "updated_at": 1767733113.7156043
+    },
+    "https://www.gsstore.org/galatasaray-25-sampiyonluk-t-shirt-e251351-2-1/": {
+        "name": "Galatasaray 25 Şampiyonluk T-Shirt E251351-2",
+        "price": 699.99,
+        "updated_at": 1767733113.7156053
+    },
+    "https://www.gsstore.org/galatasaray-solo-il-gala-erkek-t-shirt-e251550-2/": {
+        "name": "Galatasaray Solo Il Gala Erkek T-Shirt E251550",
+        "price": 1499.99,
+        "updated_at": 1767733113.7156065
+    },
+    "https://www.gsstore.org/galatasaray-solo-il-gala-erkek-t-shirt-e251550-1/": {
+        "name": "Galatasaray Solo Il Gala Erkek T-Shirt E251550",
+        "price": 1499.99,
+        "updated_at": 1767733113.7156074
+    },
+    "https://www.gsstore.org/galatasaray-solo-il-gala-erkek-t-shirt-e251550/": {
+        "name": "Galatasaray Solo Il Gala Erkek T-Shirt E251550",
+        "price": 1499.99,
+        "updated_at": 1767733113.7156084
+    },
+    "https://www.gsstore.org/galatasaray-match-day-polo-t-shirt-e251317/": {
+        "name": "Galatasaray Match Day Polo T-Shirt E251317",
+        "price": 1499.99,
+        "updated_at": 1767733113.7156093
+    },
+    "https://www.gsstore.org/galatasaray-match-day-aslanli-t-shirt-e251318-1/": {
+        "name": "Galatasaray Match Day Aslanlı T-Shirt E251318",
+        "price": 1499.99,
+        "updated_at": 1767733113.7156103
+    },
+    "https://www.gsstore.org/galatasaray-match-day-polo-t-shirt-e251316/": {
+        "name": "Galatasaray Match Day Polo T-Shirt E251316",
+        "price": 1499.99,
+        "updated_at": 1767733113.7156117
+    },
+    "https://www.gsstore.org/galatasaray-match-day-polo-t-shirt-e251319/": {
+        "name": "Galatasaray Match Day Polo T-Shirt E251319",
+        "price": 1499.99,
+        "updated_at": 1767733113.7156126
+    },
+    "https://www.gsstore.org/galatasaray-match-day-t-shirt-e251320/": {
+        "name": "Galatasaray Match Day T-Shirt E251320",
+        "price": 1499.99,
+        "updated_at": 1767733113.7156136
+    },
+    "https://www.gsstore.org/galatasaray-solo-il-gala-aslan-erkek-t-shirt-e251551/": {
+        "name": "Galatasaray Solo Il Gala Aslan Erkek T-Shirt E251551",
+        "price": 1499.99,
+        "updated_at": 1767733113.7156146
+    },
+    "https://www.gsstore.org/galatasaray-solo-il-gala-osimhen-box-e251552/": {
+        "name": "Galatasaray Solo Il Gala Osimhen Box E251552",
+        "price": 9999.99,
+        "updated_at": 1767733113.7156174
+    },
+    "https://www.gsstore.org/galatasaray-5-yildiz-t-shirt-e251501/": {
+        "name": "Galatasaray 5 Yıldız T-Shirt E251501",
+        "price": 799.99,
+        "updated_at": 1767733113.7156186
+    },
+    "https://www.gsstore.org/galatasaray-5-yildiz-yarim-zip-sweat-e251404-4/": {
+        "name": "Galatasaray 5 Yıldız Yarım Zip Sweat E251404",
+        "price": 1799.99,
+        "updated_at": 1767733113.7156196
+    },
+    "https://www.gsstore.org/galatasaray-leroy-sane-artwork-t-shirt-e251997/": {
+        "name": "Galatasaray Leroy Sane Artwork T-shirt E251997",
+        "price": 799.99,
+        "updated_at": 1767733113.7156205
+    },
+    "https://www.gsstore.org/galatasaray-leroy-sane-welcome-tee-e251498/": {
+        "name": "Galatasaray Leroy Sane Welcome Tee E251498",
+        "price": 799.99,
+        "updated_at": 1767733113.7156217
+    },
+    "https://www.gsstore.org/galatasaray-leroy-sane-design-fc-t-shirt-e251497/": {
+        "name": "Galatasaray Leroy Sane Design FC T-Shirt E251497",
+        "price": 999.99,
+        "updated_at": 1767733113.7156224
+    },
+    "https://www.gsstore.org/gsstore-x-midground-polo-sweatshirt-e251206/": {
+        "name": "GSSTORE X Midground Polo Sweatshirt E251206",
+        "price": 3249.99,
+        "updated_at": 1767733113.7156231
+    },
+    "https://www.gsstore.org/galatasaray-they-not-like-us-t-shirt-e251453/": {
+        "name": "Galatasaray They Not Like Us T-Shirt E251453",
+        "price": 999.99,
+        "updated_at": 1767733113.7156243
+    },
+    "https://www.gsstore.org/galatasaray-dursun-ozbek-2017-t-shirt-e251452-1/": {
+        "name": "Galatasaray Dursun Özbek 2017 T-Shirt E251452",
+        "price": 699.99,
+        "updated_at": 1767733113.7156255
+    },
+    "https://www.gsstore.org/galatasaray-parcali-5-yildizli-t-shirt-e251440/": {
+        "name": "Galatasaray Parçalı 5 Yıldızlı T-Shirt E251440",
+        "price": 699.99,
+        "updated_at": 1767733113.7156286
+    },
+    "https://www.gsstore.org/galatasaray-buyuk-5-yildizli-t-shirt-e251397-1/": {
+        "name": "Galatasaray Büyük 5 Yıldızlı T-shirt E251397",
+        "price": 899.99,
+        "updated_at": 1767733113.7156296
+    },
+    "https://www.gsstore.org/galatasaray-5-yildiz-hoodie-e251405/": {
+        "name": "Galatasaray 5 Yıldız Hoodie E251405",
+        "price": 1999.99,
+        "updated_at": 1767733113.7156305
+    },
+    "https://www.gsstore.org/galatasaray-5-yildiz-t-shirt-e251402-6/": {
+        "name": "Galatasaray 5 Yıldız T-shirt E251402",
+        "price": 799.99,
+        "updated_at": 1767733113.7156312
+    },
+    "https://www.gsstore.org/galatasaray-5-yildiz-detayli-t-shirt-e251399/": {
+        "name": "Galatasaray 5 Yıldız Detaylı T-shirt E251399",
+        "price": 699.99,
+        "updated_at": 1767733113.7156324
+    },
+    "https://www.gsstore.org/galatasaray-gercekleri-tarih-yazar-t-shirt-e251392/": {
+        "name": "Galatasaray Gerçekleri Tarih Yazar T-shirt E251392",
+        "price": 799.99,
+        "updated_at": 1767733113.7156332
+    },
+    "https://www.gsstore.org/galatasaray-5-yildiz-t-shirt-e251402/": {
+        "name": "Galatasaray 5 Yıldız T-shirt E251402",
+        "price": 799.99,
+        "updated_at": 1767733113.7156343
+    },
+    "https://www.gsstore.org/galatasaray-5-yildiz-t-shirt-e251393/": {
+        "name": "Galatasaray 5 Yıldız T-shirt E251393",
+        "price": 699.99,
+        "updated_at": 1767733113.7156358
+    },
+    "https://www.gsstore.org/galatasaray-5-yildiz-t-shirt-e251402-5/": {
+        "name": "Galatasaray 5 Yıldız T-shirt E251402",
+        "price": 799.99,
+        "updated_at": 1767733113.7156367
+    },
+    "https://www.gsstore.org/galatasaray-5-yildiz-t-shirt-e251393-1/": {
+        "name": "Galatasaray 5 Yıldız T-shirt E251393",
+        "price": 699.99,
+        "updated_at": 1767733113.7156415
+    },
+    "https://www.gsstore.org/galatasaray-5-yildiz-t-shirt-e251402-7/": {
+        "name": "Galatasaray 5 Yıldız T-shirt E251402",
+        "price": 799.99,
+        "updated_at": 1767733113.715643
+    },
+    "https://www.gsstore.org/galatasaray-kalkan-degrade-5-yildiz-t-shirt-e251396/": {
+        "name": "Galatasaray Kalkan Degrade 5 Yıldız T-shirt E251396",
+        "price": 799.99,
+        "updated_at": 1767733113.7156436
+    },
+    "https://www.gsstore.org/galatasaray-5-yildiz-t-shirt-e251402-2/": {
+        "name": "Galatasaray 5 Yıldız T-shirt E251402",
+        "price": 799.99,
+        "updated_at": 1767733113.7156444
+    },
+    "https://www.gsstore.org/galatasaray-degrade-5-yildiz-t-shirt-e251394/": {
+        "name": "Galatasaray Degrade 5 Yıldız T-shirt E251394",
+        "price": 799.99,
+        "updated_at": 1767733113.7156456
+    },
+    "https://www.gsstore.org/galatasaray-5-yildiz-klasik-logo-polo-t-shirt-e251403-1/": {
+        "name": "Galatasaray 5 Yıldız Klasik Logo Polo T-shirt E251403",
+        "price": 1199.99,
+        "updated_at": 1767733113.7156463
+    },
+    "https://www.gsstore.org/galatasaray-5-yildiz-klasik-logo-polo-t-shirt-e251403-6/": {
+        "name": "Galatasaray 5 Yıldız Klasik Logo Polo T-shirt E251403",
+        "price": 1199.99,
+        "updated_at": 1767733113.715647
+    },
+    "https://www.gsstore.org/galatasaray-5-yildiz-klasik-logo-polo-t-shirt-e251403-7/": {
+        "name": "Galatasaray 5 Yıldız Klasik Logo Polo T-shirt E251403",
+        "price": 1199.99,
+        "updated_at": 1767733113.7156477
+    },
+    "https://www.gsstore.org/galatasaray-5-yildiz-detayli-t-shirt-e251398/": {
+        "name": "Galatasaray 5 Yıldız Detaylı T-shirt E251398",
+        "price": 899.99,
+        "updated_at": 1767733113.7156482
+    },
+    "https://www.gsstore.org/galatasaray-25-detayli-t-shirt-e251401/": {
+        "name": "Galatasaray 25 Detaylı T-shirt E251401",
+        "price": 999.99,
+        "updated_at": 1767733113.7156487
+    },
+    "https://www.gsstore.org/galatasaray-gercekleri-tarih-yazar-t-shirt-e251392-1/": {
+        "name": "Galatasaray Gerçekleri Tarih Yazar T-shirt E251392",
+        "price": 799.99,
+        "updated_at": 1767733113.7156498
+    },
+    "https://www.gsstore.org/galatasaray-kalkan-5-yildiz-t-shirt-e251395-3/": {
+        "name": "Galatasaray Kalkan 5 Yıldız T-shirt E251395",
+        "price": 799.99,
+        "updated_at": 1767733113.7156503
+    },
+    "https://www.gsstore.org/galatasaray-turkiye-kupasi-sampiyonluk-t-shirt-e251423-2/": {
+        "name": "Galatasaray Türkiye Kupası Şampiyonluk T-Shirt E251423",
+        "price": 699.99,
+        "updated_at": 1767733113.715651
+    },
+    "https://www.gsstore.org/gsstore-x-midground-erkek-t-shirt-e251218-1/": {
+        "name": "GSSTORE X Midground Erkek T-Shirt E251218",
+        "price": 1999.99,
+        "updated_at": 1767733113.7156518
+    },
+    "https://www.gsstore.org/gsstore-x-midground-erkek-t-shirt-e251218/": {
+        "name": "GSSTORE X Midground Erkek T-Shirt E251218",
+        "price": 1999.99,
+        "updated_at": 1767733113.7156525
+    },
+    "https://www.gsstore.org/gsstore-x-midground-erkek-sort-e251219/": {
+        "name": "GSSTORE X Midground Erkek Şort E251219",
+        "price": 1999.99,
+        "updated_at": 1767733113.7156549
+    },
+    "https://www.gsstore.org/gsstore-x-midground-erkek-fermuarli-kapusonlu-sweatshirt-e251205/": {
+        "name": "GSSTORE X Midground Erkek Fermuarlı Kapüşonlu Sweatshirt E251205",
+        "price": 3499.99,
+        "updated_at": 1767733113.7156556
+    },
+    "https://www.gsstore.org/gsstore-x-midground-erkek-polo-t-shirt-e251211-2/": {
+        "name": "GSSTORE X Midground Erkek Polo T-Shirt E251211",
+        "price": 2499.99,
+        "updated_at": 1767733113.7156565
+    },
+    "https://www.gsstore.org/gsstore-x-midground-erkek-keten-gomlek-e251230-1/": {
+        "name": "GSSTORE X Midground Erkek Keten Gömlek E251230",
+        "price": 3499.99,
+        "updated_at": 1767733113.7156572
+    },
+    "https://www.gsstore.org/galatasaray-sampiyonluk-kolaj-t-shirt-e251353/": {
+        "name": "Galatasaray Şampiyonluk Kolaj T-Shirt E251353",
+        "price": 699.99,
+        "updated_at": 1767733113.7156577
+    },
+    "https://www.gsstore.org/galatasaray-parcali-5-yildiz-t-shirt-e251354/": {
+        "name": "Galatasaray Parçalı 5 Yıldız T-Shirt E251354",
+        "price": 699.99,
+        "updated_at": 1767733113.7156582
+    },
+    "https://www.gsstore.org/galatasaray-erkek-ata-sweatshirt-e251282/": {
+        "name": "Galatasaray Erkek Ata Sweatshirt E251282",
+        "price": 999.99,
+        "updated_at": 1767733113.715659
+    },
+    "https://www.gsstore.org/galatasaray-ata-sweatshirt-e251277/": {
+        "name": "Galatasaray Ata Sweatshirt E251277",
+        "price": 1399.99,
+        "updated_at": 1767733113.7156596
+    },
+    "https://www.gsstore.org/galatasaray-erkek-ata-polo-t-shirt-e251280-1/": {
+        "name": "Galatasaray Erkek Ata Polo T-Shirt E251280",
+        "price": 1199.99,
+        "updated_at": 1767733113.7156603
+    },
+    "https://www.gsstore.org/galatasaray-engelsiz-aslanlar-t-shirt-11/": {
+        "name": "Galatasaray Engelsiz Aslanlar T-shirt",
+        "price": 399.99,
+        "updated_at": 1767733113.715661
+    },
+    "https://www.gsstore.org/galatasaray-engelsiz-aslanlar-t-shirt-13/": {
+        "name": "Galatasaray Engelsiz Aslanlar T-shirt",
+        "price": 399.99,
+        "updated_at": 1767733113.7156615
+    },
+    "https://www.gsstore.org/gsstore-x-reflect-studio-1905-hoodie-e242404-8/": {
+        "name": "GSSTORE X Reflect Studio 1905 Hoodie E242404",
+        "price": 2199.99,
+        "updated_at": 1767733113.7156625
+    },
+    "https://www.gsstore.org/gsstore-x-reflect-studio-1905-hoodie-e242404-4/": {
+        "name": "GSSTORE X Reflect Studio 1905 Hoodie E242404",
+        "price": 2199.99,
+        "updated_at": 1767733113.7156632
+    },
+    "https://www.gsstore.org/gsstore-x-reflect-studio-retro-forma-t-shirt-e251264/": {
+        "name": "GSSTORE X Reflect Studio Retro Forma T-Shirt E251264",
+        "price": 1199.99,
+        "updated_at": 1767733113.7156637
+    },
+    "https://www.gsstore.org/galatasaray-erkek-ata-1905-t-shirt-e251276/": {
+        "name": "Galatasaray Erkek Ata 1905 T-Shirt E251276",
+        "price": 799.99,
+        "updated_at": 1767733113.7156644
+    },
+    "https://www.gsstore.org/galatasaray-erkek-ata-imza-t-shirt-e251279/": {
+        "name": "Galatasaray Erkek Ata İmza T-Shirt E251279",
+        "price": 799.99,
+        "updated_at": 1767733113.7156653
+    },
+    "https://www.gsstore.org/gsstore-x-midground-erkek-basic-t-shirt-e251228/": {
+        "name": "GSSTORE X Midground Erkek Basic T-Shirt E251228",
+        "price": 1999.99,
+        "updated_at": 1767733113.7156658
+    },
+    "https://www.gsstore.org/gsstore-x-midground-erkek-polo-sweatshirt-e251207/": {
+        "name": "GSSTORE X Midground Erkek Polo Sweatshirt E251207",
+        "price": 2999.99,
+        "updated_at": 1767733113.7156668
+    },
+    "https://www.gsstore.org/galatasaray-erkek-deniz-sortu-e251085-1/": {
+        "name": "Galatasaray Erkek Deniz Şortu E251085",
+        "price": 999.99,
+        "updated_at": 1767733113.7156672
+    },
+    "https://www.gsstore.org/galatasaray-erkek-deniz-sortu-e251085/": {
+        "name": "Galatasaray Erkek Deniz Şortu E251085",
+        "price": 999.99,
+        "updated_at": 1767733113.715668
+    },
+    "https://www.gsstore.org/galatasaray-erkek-deniz-sortu-e251084-5/": {
+        "name": "Galatasaray Erkek Deniz Şortu E251084",
+        "price": 899.99,
+        "updated_at": 1767733113.7156684
+    },
+    "https://www.gsstore.org/galatasaray-erkek-deniz-sortu-e251083-3/": {
+        "name": "Galatasaray Erkek Deniz Şortu E251083",
+        "price": 999.99,
+        "updated_at": 1767733113.7156692
+    },
+    "https://www.gsstore.org/galatasaray-erkek-deniz-sortu-e251083/": {
+        "name": "Galatasaray Erkek Deniz Şortu E251083",
+        "price": 999.99,
+        "updated_at": 1767733113.71567
+    },
+    "https://www.gsstore.org/galatasaray-erkek-deniz-sortu-e251083-12/": {
+        "name": "Galatasaray Erkek Deniz Şortu E251083",
+        "price": 999.99,
+        "updated_at": 1767733113.7156737
+    },
+    "https://www.gsstore.org/galatasaray-erkek-deniz-sortu-e251083-2/": {
+        "name": "Galatasaray Erkek Deniz Şortu E251083",
+        "price": 999.99,
+        "updated_at": 1767733113.7156744
+    },
+    "https://www.gsstore.org/galatasaray-erkek-deniz-sortu-e251084-3/": {
+        "name": "Galatasaray Erkek Deniz Şortu E251084",
+        "price": 899.99,
+        "updated_at": 1767733113.7156749
+    },
+    "https://www.gsstore.org/gsstore-x-midground-erkek-jogger-pantolon-e251209/": {
+        "name": "GSSTORE X Midground Erkek Jogger Pantolon E251209",
+        "price": 2749.99,
+        "updated_at": 1767733113.7156754
+    },
+    "https://www.gsstore.org/gsstore-x-midground-erkek-jogger-pantolon-e251208/": {
+        "name": "GSSTORE X Midground Erkek Jogger Pantolon E251208",
+        "price": 2749.99,
+        "updated_at": 1767733113.7156758
+    },
+    "https://www.gsstore.org/gsstore-x-midground-aslan-logolu-erkek-basic-t-shirt-e251229/": {
+        "name": "GSSTORE X Midground Aslan Logolu Erkek Basic T-Shirt E251229",
+        "price": 1999.99,
+        "updated_at": 1767733113.7156768
+    },
+    "https://www.gsstore.org/gsstore-x-midground-erkek-basic-t-shirt-e251227/": {
+        "name": "GSSTORE X Midground Erkek Basic T-Shirt E251227",
+        "price": 1999.99,
+        "updated_at": 1767733113.7156775
+    },
+    "https://www.gsstore.org/gsstore-x-midground-erkek-t-shirt-e251217/": {
+        "name": "GSSTORE X Midground Erkek T-Shirt E251217",
+        "price": 1999.99,
+        "updated_at": 1767733113.7156851
+    },
+    "https://www.gsstore.org/gsstore-x-reflect-studio-metin-oktay-t-shirt-e251267/": {
+        "name": "GSSTORE X Reflect Studio Metin Oktay T-Shirt E251267",
+        "price": 1199.99,
+        "updated_at": 1767733113.7156858
+    },
+    "https://www.gsstore.org/gsstore-x-reflect-studio-gs-corap-u251268/": {
+        "name": "GSSTORE X Reflect Studio GS Çorap U251268",
+        "price": 199.99,
+        "updated_at": 1767733113.7156863
+    },
+    "https://www.gsstore.org/gsstore-x-reflect-studio-aslan-corap-u251269/": {
+        "name": "GSSTORE X Reflect Studio Aslan Çorap U251269",
+        "price": 199.99,
+        "updated_at": 1767733113.7156868
+    },
+    "https://www.gsstore.org/gsstore-x-reflect-studio-souness-t-shirt-e251266/": {
+        "name": "GSSTORE X Reflect Studio Souness T-Shirt E251266",
+        "price": 1199.99,
+        "updated_at": 1767733113.7156878
+    },
+    "https://www.gsstore.org/gsstore-x-reflect-studio-uefa-kupa-sweatshirt-e251263/": {
+        "name": "GSSTORE X Reflect Studio Uefa Kupa Sweatshirt E251263",
+        "price": 2099.99,
+        "updated_at": 1767733113.7156885
+    },
+    "https://www.gsstore.org/gsstore-x-reflect-studio-uefa-kupa-t-shirt-e251265/": {
+        "name": "GSSTORE X Reflect Studio Uefa Kupa T-Shirt E251265",
+        "price": 1199.99,
+        "updated_at": 1767733113.7156894
+    },
+    "https://www.gsstore.org/gsstore-x-reflect-studio-retro-forma-sweatshirt-e251261/": {
+        "name": "GSSTORE X Reflect Studio Retro Forma Sweatshirt E251261",
+        "price": 2099.99,
+        "updated_at": 1767733113.7156918
+    },
+    "https://www.gsstore.org/gsstore-x-reflect-studio-souness-sweatshirt-e251262/": {
+        "name": "GSSTORE X Reflect Studio Souness Sweatshirt E251262",
+        "price": 2099.99,
+        "updated_at": 1767733113.7156928
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-e251086/": {
+        "name": "Galatasaray Erkek Şort E251086",
+        "price": 999.99,
+        "updated_at": 1767733113.7156932
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-e251086-1/": {
+        "name": "Galatasaray Erkek Şort E251086",
+        "price": 999.99,
+        "updated_at": 1767733113.7156942
+    },
+    "https://www.gsstore.org/galatasaray-puma-2024-2025-milli-takim-basketbol-forma-60660601/": {
+        "name": "Galatasaray Puma 2024/2025 Milli Takım Basketbol Forma 60660601",
+        "price": 2100.0,
+        "updated_at": 1767733113.7156951
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251059-3/": {
+        "name": "Galatasaray Erkek T-Shirt E251059",
+        "price": 849.99,
+        "updated_at": 1767733113.7156956
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251059-12/": {
+        "name": "Galatasaray Erkek T-Shirt E251059",
+        "price": 849.99,
+        "updated_at": 1767733113.7156966
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251059-11/": {
+        "name": "Galatasaray Erkek T-Shirt E251059",
+        "price": 849.99,
+        "updated_at": 1767733113.7156975
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251059-1/": {
+        "name": "Galatasaray Erkek T-Shirt E251059",
+        "price": 849.99,
+        "updated_at": 1767733113.7156982
+    },
+    "https://www.gsstore.org/galatasaray-erkek-hoodie-e251078-3/": {
+        "name": "Galatasaray Erkek Hoodie E251078",
+        "price": 1799.99,
+        "updated_at": 1767733113.7157006
+    },
+    "https://www.gsstore.org/galatasaray-erkek-hoodie-e251078-1/": {
+        "name": "Galatasaray Erkek Hoodie E251078",
+        "price": 1799.99,
+        "updated_at": 1767733113.7157016
+    },
+    "https://www.gsstore.org/galatasaray-erkek-hoodie-e251078-4/": {
+        "name": "Galatasaray Erkek Hoodie E251078",
+        "price": 1799.99,
+        "updated_at": 1767733113.7157023
+    },
+    "https://www.gsstore.org/galatasaray-erkek-hoodie-e251078-9/": {
+        "name": "Galatasaray Erkek Hoodie E251078",
+        "price": 1799.99,
+        "updated_at": 1767733113.715703
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251063/": {
+        "name": "Galatasaray Erkek T-Shirt E251063",
+        "price": 999.99,
+        "updated_at": 1767733113.715704
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251061-1/": {
+        "name": "Galatasaray Erkek T-Shirt E251061",
+        "price": 999.99,
+        "updated_at": 1767733113.7157052
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251061-3/": {
+        "name": "Galatasaray Erkek T-Shirt E251061",
+        "price": 999.99,
+        "updated_at": 1767733113.7157059
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251058-10/": {
+        "name": "Galatasaray Erkek T-Shirt E251058",
+        "price": 999.99,
+        "updated_at": 1767733113.7157063
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251064-3/": {
+        "name": "Galatasaray Erkek T-Shirt E251064",
+        "price": 999.99,
+        "updated_at": 1767733113.715707
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251058-1/": {
+        "name": "Galatasaray Erkek T-Shirt E251058",
+        "price": 999.99,
+        "updated_at": 1767733113.7157075
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-e251114-7/": {
+        "name": "Galatasaray Erkek Şort E251114",
+        "price": 1399.99,
+        "updated_at": 1767733113.7157083
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-e251114-13/": {
+        "name": "Galatasaray Erkek Şort E251114",
+        "price": 1399.99,
+        "updated_at": 1767733113.715709
+    },
+    "https://www.gsstore.org/galatasaray-erkek-esofman-alt-e251113-11/": {
+        "name": "Galatasaray Erkek Eşofman Alt E251113",
+        "price": 1699.99,
+        "updated_at": 1767733113.7157097
+    },
+    "https://www.gsstore.org/galatasaray-erkek-esofman-alt-e251113-4/": {
+        "name": "Galatasaray Erkek Eşofman Alt E251113",
+        "price": 1699.99,
+        "updated_at": 1767733113.7157104
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-e251114-12/": {
+        "name": "Galatasaray Erkek Şort E251114",
+        "price": 1399.99,
+        "updated_at": 1767733113.715711
+    },
+    "https://www.gsstore.org/galatasaray-erkek-hoodie-e251111/": {
+        "name": "Galatasaray Erkek Hoodie E251111",
+        "price": 2499.99,
+        "updated_at": 1767733113.7157123
+    },
+    "https://www.gsstore.org/galatasaray-erkek-hoodie-e251111-9/": {
+        "name": "Galatasaray Erkek Hoodie E251111",
+        "price": 2499.99,
+        "updated_at": 1767733113.7157133
+    },
+    "https://www.gsstore.org/galatasaray-erkek-hoodie-e251111-10/": {
+        "name": "Galatasaray Erkek Hoodie E251111",
+        "price": 2499.99,
+        "updated_at": 1767733113.7157137
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251070-1/": {
+        "name": "Galatasaray Erkek T-Shirt E251070",
+        "price": 899.99,
+        "updated_at": 1767733113.7157142
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251070/": {
+        "name": "Galatasaray Erkek T-Shirt E251070",
+        "price": 899.99,
+        "updated_at": 1767733113.7157152
+    },
+    "https://www.gsstore.org/galatasaray-erkek-atlet-e251045-1/": {
+        "name": "Galatasaray Erkek Atlet E251045",
+        "price": 799.99,
+        "updated_at": 1767733113.715716
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251047-1/": {
+        "name": "Galatasaray Erkek T-Shirt E251047",
+        "price": 999.99,
+        "updated_at": 1767733113.7157164
+    },
+    "https://www.gsstore.org/galatasaray-erkek-atlet-e251045/": {
+        "name": "Galatasaray Erkek Atlet E251045",
+        "price": 799.99,
+        "updated_at": 1767733113.7157187
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251047/": {
+        "name": "Galatasaray Erkek T-Shirt E251047",
+        "price": 999.99,
+        "updated_at": 1767733113.7157195
+    },
+    "https://www.gsstore.org/galatasaray-1976-1977-retro-forma-e251157-3/": {
+        "name": "Galatasaray 1976-1977 Retro Forma E251157",
+        "price": 1299.99,
+        "updated_at": 1767733113.7157202
+    },
+    "https://www.gsstore.org/galatasaray-1925-retro-forma-e251158-3/": {
+        "name": "Galatasaray 1925 Retro Forma E251158",
+        "price": 1499.99,
+        "updated_at": 1767733113.715721
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251056-1/": {
+        "name": "Galatasaray Erkek T-Shirt E251056",
+        "price": 999.99,
+        "updated_at": 1767733113.7157218
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251056-9/": {
+        "name": "Galatasaray Erkek T-Shirt E251056",
+        "price": 999.99,
+        "updated_at": 1767733113.7157228
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251056-7/": {
+        "name": "Galatasaray Erkek T-Shirt E251056",
+        "price": 999.99,
+        "updated_at": 1767733113.7157235
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251056-2/": {
+        "name": "Galatasaray Erkek T-Shirt E251056",
+        "price": 999.99,
+        "updated_at": 1767733113.7157242
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251056-3/": {
+        "name": "Galatasaray Erkek T-Shirt E251056",
+        "price": 999.99,
+        "updated_at": 1767733113.715725
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251056-11/": {
+        "name": "Galatasaray Erkek T-Shirt E251056",
+        "price": 999.99,
+        "updated_at": 1767733113.7157261
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-e251116/": {
+        "name": "Galatasaray Erkek Şort E251116",
+        "price": 1299.99,
+        "updated_at": 1767733113.715727
+    },
+    "https://www.gsstore.org/galatasaray-erkek-esofman-alt-e251094/": {
+        "name": "Galatasaray Erkek Eşofman Alt E251094",
+        "price": 1799.99,
+        "updated_at": 1767733113.715728
+    },
+    "https://www.gsstore.org/galatasaray-erkek-esofman-alt-e251093/": {
+        "name": "Galatasaray Erkek Eşofman Alt E251093",
+        "price": 1499.99,
+        "updated_at": 1767733113.7157285
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251062/": {
+        "name": "Galatasaray Erkek T-Shirt E251062",
+        "price": 999.99,
+        "updated_at": 1767733113.7157295
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251057-1/": {
+        "name": "Galatasaray Erkek T-Shirt E251057",
+        "price": 899.99,
+        "updated_at": 1767733113.7157302
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251057-3/": {
+        "name": "Galatasaray Erkek T-Shirt E251057",
+        "price": 899.99,
+        "updated_at": 1767733113.715731
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251057-2/": {
+        "name": "Galatasaray Erkek T-Shirt E251057",
+        "price": 899.99,
+        "updated_at": 1767733113.7157316
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251057/": {
+        "name": "Galatasaray Erkek T-Shirt E251057",
+        "price": 899.99,
+        "updated_at": 1767733113.7157323
+    },
+    "https://www.gsstore.org/galatasaray-parcali-t-shirt-e251200/": {
+        "name": "Galatasaray Parçalı T-Shirt E251200",
+        "price": 499.99,
+        "updated_at": 1767733113.715733
+    },
+    "https://www.gsstore.org/galatasaray-3-lu-erkek-boxer-e242306-1/": {
+        "name": "Galatasaray 3'lü Erkek Boxer E242306",
+        "price": 999.99,
+        "updated_at": 1767733113.715734
+    },
+    "https://www.gsstore.org/galatasaray-erkek-hoodie-e251075/": {
+        "name": "Galatasaray Erkek Hoodie E251075",
+        "price": 2399.99,
+        "updated_at": 1767733113.7157345
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251069/": {
+        "name": "Galatasaray Erkek T-Shirt E251069",
+        "price": 999.99,
+        "updated_at": 1767733113.715736
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251066/": {
+        "name": "Galatasaray Erkek T-Shirt E251066",
+        "price": 999.99,
+        "updated_at": 1767733113.7160068
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251067/": {
+        "name": "Galatasaray Erkek T-Shirt E251067",
+        "price": 899.99,
+        "updated_at": 1767733113.7160077
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e251068/": {
+        "name": "Galatasaray Erkek T-Shirt E251068",
+        "price": 799.99,
+        "updated_at": 1767733113.7160084
+    },
+    "https://www.gsstore.org/galatasaray-erkek-takim-e251089/": {
+        "name": "Galatasaray Erkek Takım E251089",
+        "price": 2799.99,
+        "updated_at": 1767733113.7160091
+    },
+    "https://www.gsstore.org/galatasaray-erkek-esofman-alt-e251091/": {
+        "name": "Galatasaray Erkek Eşofman Alt E251091",
+        "price": 1499.99,
+        "updated_at": 1767733113.71601
+    },
+    "https://www.gsstore.org/galatasaray-erkek-yelek-e251082/": {
+        "name": "Galatasaray Erkek Yelek E251082",
+        "price": 3499.99,
+        "updated_at": 1767733113.7160106
+    },
+    "https://www.gsstore.org/galatasaray-erkek-fermuarli-hoodie-e251033-2/": {
+        "name": "Galatasaray Erkek Fermuarlı Hoodie E251033",
+        "price": 2499.99,
+        "updated_at": 1767733113.7160113
+    },
+    "https://www.gsstore.org/galatasaray-erkek-yagmurluk-e251041-10/": {
+        "name": "Galatasaray Erkek Yağmurluk E251041",
+        "price": 3999.99,
+        "updated_at": 1767733113.7160122
+    },
+    "https://www.gsstore.org/gs-sampiyonlar-ligi-ucl-premium-hoodie-230614-2/": {
+        "name": "GS Şampiyonlar Ligi UCL Premium Hoodie 230614",
+        "price": 1899.99,
+        "updated_at": 1767733113.7160125
+    },
+    "https://www.gsstore.org/galatasaray-erkek-esofman-alt-e251092/": {
+        "name": "Galatasaray Erkek Eşofman Alt E251092",
+        "price": 1499.99,
+        "updated_at": 1767733113.7160132
+    },
+    "https://www.gsstore.org/galatasaray-erkek-fermuarli-hoodie-e251079-3/": {
+        "name": "Galatasaray Erkek Fermuarlı Hoodie E251079",
+        "price": 3499.99,
+        "updated_at": 1767733113.716014
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sweatshirt-e251076/": {
+        "name": "Galatasaray Erkek Sweatshirt E251076",
+        "price": 1299.99,
+        "updated_at": 1767733113.7160144
+    },
+    "https://www.gsstore.org/galatasaray-1905-erkek-sweatshirt-e242247/": {
+        "name": "Galatasaray 1905 Erkek Sweatshirt E242247",
+        "price": 1799.99,
+        "updated_at": 1767733113.7160149
+    },
+    "https://www.gsstore.org/galatasaray-gala-erkek-sweatshirt-e242248-2/": {
+        "name": "Galatasaray Gala Erkek Sweatshirt E242248",
+        "price": 1799.99,
+        "updated_at": 1767733113.7160153
+    },
+    "https://www.gsstore.org/galatasaray-eren-elmali-welcome-tee-e251171-1/": {
+        "name": "Galatasaray Eren Elmalı Welcome Tee E251171",
+        "price": 699.99,
+        "updated_at": 1767733113.716016
+    },
+    "https://www.gsstore.org/galatasaray-przemyslaw-frankowski-welcome-tee-e251170-1/": {
+        "name": "Galatasaray Przemysław Frankowski Welcome Tee E251170",
+        "price": 699.99,
+        "updated_at": 1767733113.7160172
+    },
+    "https://www.gsstore.org/galatasaray-carlos-cuesta-welcome-tee-e251169/": {
+        "name": "Galatasaray Carlos Cuesta Welcome Tee E251169",
+        "price": 699.99,
+        "updated_at": 1767733113.716018
+    },
+    "https://www.gsstore.org/galatasaray-mario-lemina-welcome-tee-e251167-6/": {
+        "name": "Galatasaray Mario Lemina Welcome Tee E251167",
+        "price": 699.99,
+        "updated_at": 1767733113.7160184
+    },
+    "https://www.gsstore.org/galatasaray-puma-limited-edition-sort-78152212/": {
+        "name": "Galatasaray Puma Limited Edition Şort 78152212",
+        "price": 2499.99,
+        "updated_at": 1767733113.716019
+    },
+    "https://www.gsstore.org/galatasaray-puma-limited-edition-ceket-78287112/": {
+        "name": "Galatasaray Puma Limited Edition Ceket 78287112",
+        "price": 6499.99,
+        "updated_at": 1767733113.7160194
+    },
+    "https://www.gsstore.org/gsstore-x-reflect-studio-icardi-hoodie-e242405/": {
+        "name": "GSSTORE X Reflect Studio Icardi Hoodie E242405",
+        "price": 1999.99,
+        "updated_at": 1767733113.7160206
+    },
+    "https://www.gsstore.org/gsstore-x-reflect-studio-basic-yaka-forma-icon-sweatshirt-e242402/": {
+        "name": "GSSTORE X Reflect Studio Basic Yaka Forma Icon Sweatshirt E242402",
+        "price": 2099.99,
+        "updated_at": 1767733113.7160213
+    },
+    "https://www.gsstore.org/gsstore-x-reflect-studio-mertens-hoodie-e242401-4/": {
+        "name": "GSSTORE X Reflect Studio Mertens Hoodie E242401",
+        "price": 2199.99,
+        "updated_at": 1767733113.7160218
+    },
+    "https://www.gsstore.org/galatasaray-ahmed-kutucu-welcome-tee-e251149/": {
+        "name": "Galatasaray Ahmed Kutucu Welcome Tee E251149",
+        "price": 699.99,
+        "updated_at": 1767733113.7160223
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-12270028/": {
+        "name": "Galatasaray Erkek Şort 12270028",
+        "price": 1499.99,
+        "updated_at": 1767733113.716023
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-12270028-1/": {
+        "name": "Galatasaray Erkek Şort 12270028",
+        "price": 1499.99,
+        "updated_at": 1767733113.716024
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241155-3/": {
+        "name": "Galatasaray Erkek T-Shirt E241155",
+        "price": 799.99,
+        "updated_at": 1767733113.7160249
+    },
+    "https://www.gsstore.org/galatasaray-erkek-yeni-yil-pijama-takim-e242257/": {
+        "name": "Galatasaray Erkek Yeni Yıl Pijama Takım E242257",
+        "price": 1499.99,
+        "updated_at": 1767733113.7160254
+    },
+    "https://www.gsstore.org/galatasaray-yeni-yil-kazak-e242249-3/": {
+        "name": "Galatasaray Yeni Yıl Kazak E242249",
+        "price": 1299.99,
+        "updated_at": 1767733113.716026
+    },
+    "https://www.gsstore.org/galatasaray-yeni-yil-aslanli-kazak-e242246-2/": {
+        "name": "Galatasaray Yeni Yıl Aslanlı Kazak E242246",
+        "price": 1299.99,
+        "updated_at": 1767733113.7160265
+    },
+    "https://www.gsstore.org/galatasaray-erkek-yeni-yil-pijama-takim-e242256-2/": {
+        "name": "Galatasaray Erkek Yeni Yıl Pijama Takım E242256",
+        "price": 1499.99,
+        "updated_at": 1767733113.716027
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e242099/": {
+        "name": "Galatasaray Erkek T-Shirt E242099",
+        "price": 799.99,
+        "updated_at": 1767733113.7160277
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e242118-3/": {
+        "name": "Galatasaray Erkek T-Shirt E242118",
+        "price": 749.99,
+        "updated_at": 1767733113.7160287
+    },
+    "https://www.gsstore.org/galatasaray-erkek-ruzgarlik-e242167/": {
+        "name": "Galatasaray Erkek Rüzgarlık E242167",
+        "price": 3499.99,
+        "updated_at": 1767733113.7160292
+    },
+    "https://www.gsstore.org/galatasaray-felipe-melo-legends-t-shirt-e232392-2/": {
+        "name": "Galatasaray Felipe Melo Legends T-Shirt E232392",
+        "price": 999.99,
+        "updated_at": 1767733113.7160296
+    },
+    "https://www.gsstore.org/galatasaray-harry-kewell-legends-t-shirt-e232391/": {
+        "name": "Galatasaray Harry Kewell Legends T-Shirt E232391",
+        "price": 999.99,
+        "updated_at": 1767733113.7160301
+    },
+    "https://www.gsstore.org/galatasaray-puma-a-takim-mont-65873903-1/": {
+        "name": "Galatasaray Puma A Takım Mont 65873903",
+        "price": 7999.99,
+        "updated_at": 1767733113.7160308
+    },
+    "https://www.gsstore.org/galatasaray-puma-erkek-spor-ayakkabi-39229034-2/": {
+        "name": "Galatasaray Puma Erkek Spor Ayakkabı 39229034",
+        "price": 3499.99,
+        "updated_at": 1767733113.7160316
+    },
+    "https://www.gsstore.org/galatasaray-puma-erkek-krampon-10768901-2/": {
+        "name": "Galatasaray Puma Erkek Krampon 10768901",
+        "price": 3799.99,
+        "updated_at": 1767733113.716032
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-e241135-3/": {
+        "name": "Galatasaray Erkek Şort E241135",
+        "price": 1199.99,
+        "updated_at": 1767733113.7160327
+    },
+    "https://www.gsstore.org/galatasaray-icardi-99-artwork-t-shirt-e241989/": {
+        "name": "Galatasaray Icardi 99 Artwork T-Shirt E241989",
+        "price": 699.99,
+        "updated_at": 1767733113.7160332
+    },
+    "https://www.gsstore.org/galatasaray-kadikoy-derbi-hatirasi-t-shirt-e241992-5/": {
+        "name": "Galatasaray Kadıköy Derbi Hatırası T-Shirt E241992",
+        "price": 699.99,
+        "updated_at": 1767733113.716034
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-y241223-3/": {
+        "name": "Galatasaray Erkek Şort Y241223",
+        "price": 999.99,
+        "updated_at": 1767733113.7160347
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-e241134/": {
+        "name": "Galatasaray Erkek Şort E241134",
+        "price": 899.99,
+        "updated_at": 1767733113.7160354
+    },
+    "https://www.gsstore.org/galatasaray-erkek-esofman-alt-e241149/": {
+        "name": "Galatasaray Erkek Eşofman Alt E241149",
+        "price": 1699.99,
+        "updated_at": 1767733113.7160363
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241153-1/": {
+        "name": "Galatasaray Erkek T-Shirt E241153",
+        "price": 1199.99,
+        "updated_at": 1767733113.7160368
+    },
+    "https://www.gsstore.org/galatasaray-puma-a-takim-antrenman-t-shirt-77969503-2/": {
+        "name": "Galatasaray Puma A Takım Antrenman T-Shirt 77969503",
+        "price": 1999.99,
+        "updated_at": 1767733113.7160373
+    },
+    "https://www.gsstore.org/galatasaray-puma-kapusonlu-sweatshirt-65861833-2/": {
+        "name": "Galatasaray Puma Kapüşonlu Sweatshirt 65861833",
+        "price": 3299.99,
+        "updated_at": 1767733113.7160382
+    },
+    "https://www.gsstore.org/galatasaray-puma-unisex-spor-ayakkabi-39821006/": {
+        "name": "Galatasaray Puma Unisex Spor Ayakkabı 39821006",
+        "price": 5999.99,
+        "updated_at": 1767733113.7160387
+    },
+    "https://www.gsstore.org/galatasaray-puma-erkek-spor-ayakkabi-39821001/": {
+        "name": "Galatasaray Puma Erkek Spor Ayakkabı 39821001",
+        "price": 5999.99,
+        "updated_at": 1767733113.7160392
+    },
+    "https://www.gsstore.org/galatasaray-puma-erkek-spor-ayakkabi-38660718/": {
+        "name": "Galatasaray Puma Erkek Spor Ayakkabı 38660718",
+        "price": 5099.99,
+        "updated_at": 1767733113.7160397
+    },
+    "https://www.gsstore.org/galatasaray-puma-erkek-hali-saha-ayakkabi-10790701/": {
+        "name": "Galatasaray Puma Erkek Halı Saha Ayakkabı 10790701",
+        "price": 3799.99,
+        "updated_at": 1767733113.7160406
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-12270029-1/": {
+        "name": "Galatasaray Erkek T-Shirt 12270029",
+        "price": 999.99,
+        "updated_at": 1767733113.7160413
+    },
+    "https://www.gsstore.org/galatasaray-puma-a-takim-antrenman-t-shirt-77969501/": {
+        "name": "Galatasaray Puma A Takım Antrenman T-Shirt 77969501",
+        "price": 1999.99,
+        "updated_at": 1767733113.7160418
+    },
+    "https://www.gsstore.org/galatasaray-puma-a-takim-antrenman-atlet-77969001/": {
+        "name": "Galatasaray Puma A Takım Antrenman Atlet 77969001",
+        "price": 1799.99,
+        "updated_at": 1767733113.7160423
+    },
+    "https://www.gsstore.org/galatasaray-puma-a-takim-antrenman-t-shirt-77969312/": {
+        "name": "Galatasaray Puma A Takım Antrenman T-Shirt 77969312",
+        "price": 1999.99,
+        "updated_at": 1767733113.716043
+    },
+    "https://www.gsstore.org/galatasaray-puma-a-takim-antrenman-t-shirt-77969304-4/": {
+        "name": "Galatasaray Puma A Takım Antrenman T-Shirt 77969304",
+        "price": 1999.99,
+        "updated_at": 1767733113.7160435
+    },
+    "https://www.gsstore.org/galatasaray-puma-a-takim-antrenman-t-shirt-77969511-3/": {
+        "name": "Galatasaray Puma A Takım Antrenman T-Shirt 77969511",
+        "price": 1999.99,
+        "updated_at": 1767733113.7160442
+    },
+    "https://www.gsstore.org/galatasaray-puma-a-takim-fermuarli-kapusonlu-sweatshirt-78121501-2/": {
+        "name": "Galatasaray Puma A Takım Fermuarlı Kapüşonlu Sweatshirt 78121501",
+        "price": 4499.99,
+        "updated_at": 1767733113.716045
+    },
+    "https://www.gsstore.org/galatasaray-puma-a-takim-fermuarli-kapusonlu-sweatshirt-78121503/": {
+        "name": "Galatasaray Puma A Takım Fermuarlı Kapüşonlu Sweatshirt 78121503",
+        "price": 4499.99,
+        "updated_at": 1767733113.7160456
+    },
+    "https://www.gsstore.org/galatasaray-plaj-havlusu-75-150-1500199627/": {
+        "name": "Galatasaray Plaj Havlusu 75*150 1500199627",
+        "price": 799.0,
+        "updated_at": 1767733113.716046
+    },
+    "https://www.gsstore.org/hoodie-tc-0109-4/": {
+        "name": "HOODİE TC-0109",
+        "price": 1979.99,
+        "updated_at": 1767733113.7160466
+    },
+    "https://www.gsstore.org/galatasaray-erkek-esofman-takim-e232242-3/": {
+        "name": "Galatasaray Erkek Eşofman Takım E232242",
+        "price": 2499.99,
+        "updated_at": 1767733113.716047
+    },
+    "https://www.gsstore.org/galatasaray-erkek-esofman-takim-e232240-1/": {
+        "name": "Galatasaray Erkek Eşofman Takım E232240",
+        "price": 2499.99,
+        "updated_at": 1767733113.7160478
+    },
+    "https://www.gsstore.org/hoodie-tc-0109-3/": {
+        "name": "HOODİE TC-0109",
+        "price": 1979.99,
+        "updated_at": 1767733113.7160487
+    },
+    "https://www.gsstore.org/galatasaray-erkek-pantolon-12270127/": {
+        "name": "Galatasaray Erkek Pantolon 12270127",
+        "price": 2999.99,
+        "updated_at": 1767733113.7160492
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-12270125/": {
+        "name": "Galatasaray Erkek Şort 12270125",
+        "price": 2199.99,
+        "updated_at": 1767733113.71605
+    },
+    "https://www.gsstore.org/galatasaray-erkek-esofman-alt-12270180-4/": {
+        "name": "Galatasaray Erkek Eşofman Alt 12270180",
+        "price": 1599.99,
+        "updated_at": 1767733113.7160504
+    },
+    "https://www.gsstore.org/galatasaray-erkek-esofman-alt-12270180-1/": {
+        "name": "Galatasaray Erkek Eşofman Alt 12270180",
+        "price": 1599.99,
+        "updated_at": 1767733113.716051
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-12270125-1/": {
+        "name": "Galatasaray Erkek Şort 12270125",
+        "price": 2199.99,
+        "updated_at": 1767733113.7160518
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-y241222/": {
+        "name": "Galatasaray Erkek T-Shirt Y241222",
+        "price": 899.99,
+        "updated_at": 1767733113.7160525
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-y241221-1/": {
+        "name": "Galatasaray Erkek Şort Y241221",
+        "price": 1099.99,
+        "updated_at": 1767733113.716053
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-y241221/": {
+        "name": "Galatasaray Erkek Şort Y241221",
+        "price": 1099.99,
+        "updated_at": 1767733113.7160537
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-y241220/": {
+        "name": "Galatasaray Erkek T-Shirt Y241220",
+        "price": 1299.99,
+        "updated_at": 1767733113.7160542
+    },
+    "https://www.gsstore.org/galatasaray-erkek-esofman-alt-y241213-1/": {
+        "name": "Galatasaray Erkek Eşofman Alt Y241213",
+        "price": 1199.99,
+        "updated_at": 1767733113.7160552
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-y241218-3/": {
+        "name": "Galatasaray Erkek T-Shirt Y241218",
+        "price": 599.99,
+        "updated_at": 1767733113.7160556
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sweatshirt-y241215/": {
+        "name": "Galatasaray Erkek Sweatshirt Y241215",
+        "price": 1499.99,
+        "updated_at": 1767733113.7160566
+    },
+    "https://www.gsstore.org/galatasaray-erkek-esofman-alt-y241213-6/": {
+        "name": "Galatasaray Erkek Eşofman Alt Y241213",
+        "price": 1199.99,
+        "updated_at": 1767733113.716057
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sweatshirt-12270179-1/": {
+        "name": "Galatasaray Erkek Sweatshirt 12270179",
+        "price": 2699.99,
+        "updated_at": 1767733113.7160575
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sweatshirt-12270179/": {
+        "name": "Galatasaray Erkek Sweatshirt 12270179",
+        "price": 2699.99,
+        "updated_at": 1767733113.7160583
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-12263949-1/": {
+        "name": "Galatasaray Erkek T-shirt 12263949",
+        "price": 899.99,
+        "updated_at": 1767733113.716059
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-12263951-1/": {
+        "name": "Galatasaray Erkek T-Shirt 12263951",
+        "price": 999.99,
+        "updated_at": 1767733113.7160597
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-12263951-7/": {
+        "name": "Galatasaray Erkek T-Shirt 12263951",
+        "price": 999.99,
+        "updated_at": 1767733113.7160604
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-12263949/": {
+        "name": "Galatasaray Erkek T-shirt 12263949",
+        "price": 899.99,
+        "updated_at": 1767733113.7160609
+    },
+    "https://www.gsstore.org/galatasaray-erkek-esofman-takim-e232241/": {
+        "name": "Galatasaray Erkek Eşofman Takım E232241",
+        "price": 1849.99,
+        "updated_at": 1767733113.7160616
+    },
+    "https://www.gsstore.org/galatasaray-erkek-basic-sort-e241238/": {
+        "name": "Galatasaray Erkek Basic Şort E241238",
+        "price": 999.99,
+        "updated_at": 1767733113.7160623
+    },
+    "https://www.gsstore.org/galatasaray-erkek-basic-sort-e241238-9/": {
+        "name": "Galatasaray Erkek Basic Şort E241238",
+        "price": 999.99,
+        "updated_at": 1767733113.7160628
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-e241158/": {
+        "name": "Galatasaray Erkek Şort E241158",
+        "price": 999.99,
+        "updated_at": 1767733113.7160633
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-e241147/": {
+        "name": "Galatasaray Erkek Şort E241147",
+        "price": 1199.99,
+        "updated_at": 1767733113.7160645
+    },
+    "https://www.gsstore.org/galatasaray-erkek-basic-sort-e241238-10/": {
+        "name": "Galatasaray Erkek Basic Şort E241238",
+        "price": 999.99,
+        "updated_at": 1767733113.716065
+    },
+    "https://www.gsstore.org/galatasaray-erkek-deniz-sort-e241160/": {
+        "name": "Galatasaray Erkek Deniz Şort E241160",
+        "price": 1199.99,
+        "updated_at": 1767733113.716066
+    },
+    "https://www.gsstore.org/galatasaray-erkek-deniz-sort-e241159/": {
+        "name": "Galatasaray Erkek Deniz Şort E241159",
+        "price": 999.99,
+        "updated_at": 1767733113.7160664
+    },
+    "https://www.gsstore.org/galatasaray-erkek-deniz-sort-e241152-4/": {
+        "name": "Galatasaray Erkek Deniz Şort E241152",
+        "price": 999.99,
+        "updated_at": 1767733113.716067
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sweatshirt-e241232-2/": {
+        "name": "Galatasaray Erkek Sweatshirt E241232",
+        "price": 1599.99,
+        "updated_at": 1767733113.7160673
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241161/": {
+        "name": "Galatasaray Erkek T-Shirt E241161",
+        "price": 749.99,
+        "updated_at": 1767733113.7160678
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241156-3/": {
+        "name": "Galatasaray Erkek T-Shirt E241156",
+        "price": 899.99,
+        "updated_at": 1767733113.7160685
+    },
+    "https://www.gsstore.org/galatasaray-erkek-esofman-alt-e241136-4/": {
+        "name": "Galatasaray Erkek Eşofman Alt E241136",
+        "price": 1799.99,
+        "updated_at": 1767733113.7160692
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241124/": {
+        "name": "Galatasaray Erkek T-Shirt E241124",
+        "price": 999.99,
+        "updated_at": 1767733113.7160697
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-e241108/": {
+        "name": "Galatasaray Erkek Şort E241108",
+        "price": 1399.99,
+        "updated_at": 1767733113.7160702
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241107/": {
+        "name": "Galatasaray Erkek T-Shirt E241107",
+        "price": 999.99,
+        "updated_at": 1767733113.7160704
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241098-1/": {
+        "name": "Galatasaray Erkek T-Shirt E241098",
+        "price": 799.99,
+        "updated_at": 1767733113.716071
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241098-8/": {
+        "name": "Galatasaray Erkek T-Shirt E241098",
+        "price": 799.99,
+        "updated_at": 1767733113.7160718
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-y241223/": {
+        "name": "Galatasaray Erkek Şort Y241223",
+        "price": 999.99,
+        "updated_at": 1767733113.7160726
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241155-2/": {
+        "name": "Galatasaray Erkek T-Shirt E241155",
+        "price": 799.99,
+        "updated_at": 1767733113.716073
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-e241164/": {
+        "name": "Galatasaray Erkek Şort E241164",
+        "price": 999.99,
+        "updated_at": 1767733113.7160735
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241140-6/": {
+        "name": "Galatasaray Erkek T-Shirt E241140",
+        "price": 699.99,
+        "updated_at": 1767733113.716074
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241140-9/": {
+        "name": "Galatasaray Erkek T-Shirt E241140",
+        "price": 699.99,
+        "updated_at": 1767733113.7160745
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241140/": {
+        "name": "Galatasaray Erkek T-Shirt E241140",
+        "price": 699.99,
+        "updated_at": 1767733113.7160752
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241139-8/": {
+        "name": "Galatasaray Erkek T-Shirt E241139",
+        "price": 799.99,
+        "updated_at": 1767733113.7160757
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241125-5/": {
+        "name": "Galatasaray Erkek T-Shirt E241125",
+        "price": 649.99,
+        "updated_at": 1767733113.7160764
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241126-1/": {
+        "name": "Galatasaray Erkek T-Shirt E241126",
+        "price": 699.99,
+        "updated_at": 1767733113.716077
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241126/": {
+        "name": "Galatasaray Erkek T-Shirt E241126",
+        "price": 699.99,
+        "updated_at": 1767733113.7160778
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241114-1/": {
+        "name": "Galatasaray Erkek T-Shirt E241114",
+        "price": 649.99,
+        "updated_at": 1767733113.7160783
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241114-7/": {
+        "name": "Galatasaray Erkek T-Shirt E241114",
+        "price": 649.99,
+        "updated_at": 1767733113.716079
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241113-3/": {
+        "name": "Galatasaray Erkek T-Shirt E241113",
+        "price": 549.99,
+        "updated_at": 1767733113.7160797
+    },
+    "https://www.gsstore.org/galatasaray-icardi-pijama-e241403-3/": {
+        "name": "Galatasaray Icardi Pijama E241403",
+        "price": 899.99,
+        "updated_at": 1767733113.7160804
+    },
+    "https://www.gsstore.org/galatasaray-erkek-slim-fit-gomlek-e241293/": {
+        "name": "Galatasaray Erkek Slim Fit Gömlek E241293",
+        "price": 1499.99,
+        "updated_at": 1767733113.716081
+    },
+    "https://www.gsstore.org/galatasaray-erkek-slim-fit-gomlek-e241293-1/": {
+        "name": "Galatasaray Erkek Slim Fit Gömlek E241293",
+        "price": 1499.99,
+        "updated_at": 1767733113.7160814
+    },
+    "https://www.gsstore.org/galatasaray-okan-buruk-design-fc-t-shirt-e232387-3/": {
+        "name": "Galatasaray Okan Buruk Design FC T-shirt E232387",
+        "price": 1299.99,
+        "updated_at": 1767733113.7160854
+    },
+    "https://www.gsstore.org/galatasaray-kaan-ayhan-design-fc-t-shirt-e232386/": {
+        "name": "Galatasaray Kaan Ayhan Design FC T-Shirt E232386",
+        "price": 849.99,
+        "updated_at": 1767733113.7160864
+    },
+    "https://www.gsstore.org/galatasaray-davinson-sanchez-design-fc-t-shirt-e232383-5/": {
+        "name": "Galatasaray Davinson Sanchez Design FC T-Shirt E232383",
+        "price": 849.99,
+        "updated_at": 1767733113.716087
+    },
+    "https://www.gsstore.org/galatasaray-kerem-demirbay-design-fc-t-shirt-e232382/": {
+        "name": "Galatasaray Kerem Demirbay Design FC T-Shirt E232382",
+        "price": 849.99,
+        "updated_at": 1767733113.7160873
+    },
+    "https://www.gsstore.org/galatasaray-match-day-t-shirt-e232274-4/": {
+        "name": "Galatasaray Match Day T-Shirt E232274",
+        "price": 899.99,
+        "updated_at": 1767733113.716088
+    },
+    "https://www.gsstore.org/galatasaray-seninle-bir-dakika-hatira-t-shirt-e241280-2/": {
+        "name": "Galatasaray Seninle Bir Dakika Hatıra T-Shirt E241280",
+        "price": 599.99,
+        "updated_at": 1767733113.7160885
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sweatshirt-y232023-1/": {
+        "name": "Galatasaray Erkek Sweatshirt Y232023",
+        "price": 999.99,
+        "updated_at": 1767733113.716089
+    },
+    "https://www.gsstore.org/galatasaray-buyuk-logolu-sweatshirt-e88154-2/": {
+        "name": "Galatasaray Büyük Logolu Sweatshirt E88154",
+        "price": 1249.99,
+        "updated_at": 1767733113.7160895
+    },
+    "https://www.gsstore.org/galatasaray-erkek-triko-ceket-e232179-5/": {
+        "name": "Galatasaray Erkek Triko Ceket E232179",
+        "price": 1299.99,
+        "updated_at": 1767733113.7160902
+    },
+    "https://www.gsstore.org/galatasaray-erkek-triko-ceket-e232179-4/": {
+        "name": "Galatasaray Erkek Triko Ceket E232179",
+        "price": 1299.99,
+        "updated_at": 1767733113.7160904
+    },
+    "https://www.gsstore.org/galatasaray-buyuk-logolu-sweatshirt-e88154-3/": {
+        "name": "Galatasaray Büyük Logolu Sweatshirt E88154",
+        "price": 1249.99,
+        "updated_at": 1767733113.716091
+    },
+    "https://www.gsstore.org/galatasaray-buyuk-logolu-tee-e88153-17/": {
+        "name": "Galatasaray Büyük Logolu Tee E88153",
+        "price": 399.99,
+        "updated_at": 1767733113.7160916
+    },
+    "https://www.gsstore.org/galatasaray-buyuk-logolu-tee-e88153-13/": {
+        "name": "Galatasaray Büyük Logolu Tee E88153",
+        "price": 399.99,
+        "updated_at": 1767733113.716092
+    },
+    "https://www.gsstore.org/galatasaray-buyuk-logolu-tee-e88153-3/": {
+        "name": "Galatasaray Büyük Logolu Tee E88153",
+        "price": 399.99,
+        "updated_at": 1767733113.7160923
+    },
+    "https://www.gsstore.org/galatasaray-erkek-esofman-takim-e232046-2/": {
+        "name": "Galatasaray Erkek Eşofman Takım E232046",
+        "price": 1999.99,
+        "updated_at": 1767733113.7160928
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sweatshirt-e232042-1/": {
+        "name": "Galatasaray Erkek Sweatshirt E232042",
+        "price": 1499.99,
+        "updated_at": 1767733113.7160935
+    },
+    "https://www.gsstore.org/galatasaray-baris-alper-yilmaz-design-fc-t-shirt-e232268-8/": {
+        "name": "Galatasaray Barış Alper Yılmaz Design FC T-Shirt E232268",
+        "price": 849.99,
+        "updated_at": 1767733113.716094
+    },
+    "https://www.gsstore.org/galatasaray-lucas-torreira-design-fc-t-shirt-e232266-3/": {
+        "name": "Galatasaray Lucas Torreira Design FC T-Shirt E232266",
+        "price": 849.99,
+        "updated_at": 1767733113.7160945
+    },
+    "https://www.gsstore.org/galatasaray-erkek-kaban-12257092/": {
+        "name": "Galatasaray Erkek Kaban 12257092",
+        "price": 5999.99,
+        "updated_at": 1767733113.7160954
+    },
+    "https://www.gsstore.org/galatasaray-buyuk-logolu-sweatshirt-e88154/": {
+        "name": "Galatasaray Büyük Logolu Sweatshirt E88154",
+        "price": 1249.99,
+        "updated_at": 1767733113.7160957
+    },
+    "https://www.gsstore.org/galatasaray-erkek-esofman-alt-12257036-1/": {
+        "name": "Galatasaray Erkek Eşofman Alt 12257036",
+        "price": 1799.99,
+        "updated_at": 1767733113.7160964
+    },
+    "https://www.gsstore.org/gs-sampiyonlar-ligi-ucl-zip-hoodie-230612k-1/": {
+        "name": "GS Şampiyonlar Ligi UCL Zip Hoodie 230612K",
+        "price": 1999.99,
+        "updated_at": 1767733113.7160969
+    },
+    "https://www.gsstore.org/gs-sampiyonlar-ligi-ucl-zip-hoodie-230612k-2/": {
+        "name": "GS Şampiyonlar Ligi UCL Zip Hoodie 230612K",
+        "price": 1999.99,
+        "updated_at": 1767733113.7160974
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sweatshirt-12257102/": {
+        "name": "Galatasaray Erkek Sweatshirt 12257102",
+        "price": 3399.99,
+        "updated_at": 1767733113.7160978
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sweatshirt-12257040-2/": {
+        "name": "Galatasaray Erkek Sweatshirt 12257040",
+        "price": 1899.99,
+        "updated_at": 1767733113.716098
+    },
+    "https://www.gsstore.org/galatasaray-erkek-hirka-12257034/": {
+        "name": "Galatasaray Erkek Hırka 12257034",
+        "price": 2999.99,
+        "updated_at": 1767733113.7160985
+    },
+    "https://www.gsstore.org/gs-sampiyonlar-ligi-ucl-premium-hoodie-230614/": {
+        "name": "GS Şampiyonlar Ligi UCL Premium Hoodie 230614",
+        "price": 1899.99,
+        "updated_at": 1767733113.716099
+    },
+    "https://www.gsstore.org/galatasaray-erkek-icardi-hoodie-e232249-2/": {
+        "name": "Galatasaray Erkek Icardi Hoodie E232249",
+        "price": 1299.99,
+        "updated_at": 1767733113.7160995
+    },
+    "https://www.gsstore.org/galatasaray-erkek-yelek-12257085-4/": {
+        "name": "Galatasaray Erkek Yelek 12257085",
+        "price": 2599.99,
+        "updated_at": 1767733113.7161
+    },
+    "https://www.gsstore.org/galatasaray-erkek-mont-12257076-1/": {
+        "name": "Galatasaray Erkek Mont 12257076",
+        "price": 2999.99,
+        "updated_at": 1767733113.7161007
+    },
+    "https://www.gsstore.org/galatasaray-erkek-mont-12257064-1/": {
+        "name": "Galatasaray Erkek Mont 12257064",
+        "price": 2999.99,
+        "updated_at": 1767733113.7161012
+    },
+    "https://www.gsstore.org/galatasaray-erkek-polar-ceket-12257090-1/": {
+        "name": "Galatasaray Erkek Polar Ceket 12257090",
+        "price": 2599.99,
+        "updated_at": 1767733113.716102
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sweatshirt-12257106-1/": {
+        "name": "Galatasaray Erkek Sweatshirt 12257106",
+        "price": 1599.99,
+        "updated_at": 1767733113.7161021
+    },
+    "https://www.gsstore.org/galatasaray-erkek-gomlek-12257043-1/": {
+        "name": "Galatasaray Erkek Gömlek 12257043",
+        "price": 1999.99,
+        "updated_at": 1767733113.716103
+    },
+    "https://www.gsstore.org/galatasaray-erkek-esofman-alt-12257080/": {
+        "name": "Galatasaray Erkek Eşofman Alt 12257080",
+        "price": 1899.99,
+        "updated_at": 1767733113.7161038
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sweatshirt-12257048-2/": {
+        "name": "Galatasaray Erkek Sweatshirt 12257048",
+        "price": 1399.99,
+        "updated_at": 1767733113.7161043
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sweatshirt-12257048-1/": {
+        "name": "Galatasaray Erkek Sweatshirt 12257048",
+        "price": 1399.99,
+        "updated_at": 1767733113.7161047
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-12257046/": {
+        "name": "Galatasaray Erkek T-Shirt 12257046",
+        "price": 999.99,
+        "updated_at": 1767733113.7161052
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-12257046-1/": {
+        "name": "Galatasaray Erkek T-Shirt 12257046",
+        "price": 999.99,
+        "updated_at": 1767733113.7161057
+    },
+    "https://www.gsstore.org/galatasaray-erkek-yelek-12257085-3/": {
+        "name": "Galatasaray Erkek Yelek 12257085",
+        "price": 2599.99,
+        "updated_at": 1767733113.7161062
+    },
+    "https://www.gsstore.org/galatasaray-erkek-mont-12257058/": {
+        "name": "Galatasaray Erkek Mont 12257058",
+        "price": 3899.99,
+        "updated_at": 1767733113.7161067
+    },
+    "https://www.gsstore.org/galatasaray-erkek-mont-12257056/": {
+        "name": "Galatasaray Erkek Mont 12257056",
+        "price": 4699.99,
+        "updated_at": 1767733113.7161074
+    },
+    "https://www.gsstore.org/galatasaray-erkek-esofman-alt-12257044-1/": {
+        "name": "Galatasaray Erkek Eşofman Alt 12257044",
+        "price": 1999.99,
+        "updated_at": 1767733113.7161078
+    },
+    "https://www.gsstore.org/galatasaray-erkek-gomlek-12257043/": {
+        "name": "Galatasaray Erkek Gömlek 12257043",
+        "price": 1999.99,
+        "updated_at": 1767733113.716108
+    },
+    "https://www.gsstore.org/galatasaray-erkek-gomlek-12257039/": {
+        "name": "Galatasaray Erkek Gömlek 12257039",
+        "price": 2999.99,
+        "updated_at": 1767733113.7161086
+    },
+    "https://www.gsstore.org/galatasaray-erkek-gomlek-12257029/": {
+        "name": "Galatasaray Erkek Gömlek 12257029",
+        "price": 2499.99,
+        "updated_at": 1767733113.716109
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sweatshirt-12257106-2/": {
+        "name": "Galatasaray Erkek Sweatshirt 12257106",
+        "price": 1599.99,
+        "updated_at": 1767733113.7161095
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sweatshirt-12257051-1/": {
+        "name": "Galatasaray Erkek Sweatshirt 12257051",
+        "price": 1499.99,
+        "updated_at": 1767733113.71611
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sweatshirt-12257040-3/": {
+        "name": "Galatasaray Erkek Sweatshirt 12257040",
+        "price": 1899.99,
+        "updated_at": 1767733113.7161112
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sweatshirt-12257025-1/": {
+        "name": "Galatasaray Erkek Sweatshirt 12257025",
+        "price": 2999.99,
+        "updated_at": 1767733113.7161117
+    },
+    "https://www.gsstore.org/galatasaray-erkek-icardi-t-shirt-e232259/": {
+        "name": "Galatasaray Erkek Icardi T-Shirt E232259",
+        "price": 549.99,
+        "updated_at": 1767733113.7161121
+    },
+    "https://www.gsstore.org/galatasaray-erkek-icardi-t-shirt-e232260-1/": {
+        "name": "Galatasaray Erkek Icardi T-Shirt E232260",
+        "price": 549.99,
+        "updated_at": 1767733113.7161126
+    },
+    "https://www.gsstore.org/galatasaray-erkek-icardi-t-shirt-e232257-3/": {
+        "name": "Galatasaray Erkek Icardi T-Shirt E232257",
+        "price": 549.99,
+        "updated_at": 1767733113.7161157
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-e231215-685-1/": {
+        "name": "Galatasaray Erkek Şort E231215-685",
+        "price": 699.99,
+        "updated_at": 1767733113.7161162
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sort-e231179-301/": {
+        "name": "Galatasaray Erkek Şort E231179-301",
+        "price": 849.99,
+        "updated_at": 1767733113.716117
+    },
+    "https://www.gsstore.org/galatasaray-abdulkerim-bardakci-match-day-t-shirt-e231233-4/": {
+        "name": "Galatasaray Abdülkerim Bardakcı Match Day T-Shirt E231233",
+        "price": 849.99,
+        "updated_at": 1767733113.7161176
+    },
+    "https://www.gsstore.org/galatasaray-gsfit-erkek-t-shirt-e231158-302-1/": {
+        "name": "Galatasaray GSFIT Erkek T-shirt E231158-302",
+        "price": 399.99,
+        "updated_at": 1767733113.7161183
+    },
+    "https://www.gsstore.org/galatasaray-gsfit-erkek-t-shirt-e231158-301-1/": {
+        "name": "Galatasaray GSFIT Erkek T-shirt E231158-301",
+        "price": 399.99,
+        "updated_at": 1767733113.7161188
+    },
+    "https://www.gsstore.org/galatasaray-kerem-demirbay-t-shirt-e231388/": {
+        "name": "Galatasaray Kerem Demirbay T-Shirt E231388",
+        "price": 399.99,
+        "updated_at": 1767733113.7161193
+    },
+    "https://www.gsstore.org/galatasaray-erkek-ceket-e231110-301-2/": {
+        "name": "Galatasaray Erkek Ceket E231110-301",
+        "price": 2089.99,
+        "updated_at": 1767733113.7161198
+    },
+    "https://www.gsstore.org/galatasaray-icardi-t-shirt-e231364/": {
+        "name": "Galatasaray Icardi T-Shirt E231364",
+        "price": 399.99,
+        "updated_at": 1767733113.7161202
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-e231136-301/": {
+        "name": "Galatasaray Erkek T-shirt E231136-301",
+        "price": 999.99,
+        "updated_at": 1767733113.7161207
+    },
+    "https://www.gsstore.org/galatasaray-metin-oktay-sweatshirt-e88085-k023-e88085-209-2/": {
+        "name": "Galatasaray Metin Oktay Sweatshirt E88085",
+        "price": 1599.99,
+        "updated_at": 1767733113.7161214
+    },
+    "https://www.gsstore.org/galatasaray-metin-oktay-ceket-e88100-k023-e88100-209-1/": {
+        "name": "Galatasaray Metin Oktay Ceket E88100",
+        "price": 2199.99,
+        "updated_at": 1767733113.716122
+    },
+    "https://www.gsstore.org/galatasaray-erkek-match-day-polo-t-shirt-e212218-e212218-211-1/": {
+        "name": "Galatasaray Erkek Match Day Polo T-shirt E212218",
+        "price": 899.99,
+        "updated_at": 1767733113.7161222
     }
 }
