@@ -220,3 +220,5 @@ footer {
     font-size: 0.8rem;
     opacity: 0.5;
 }
+
+.header-controls { display: flex; align-items: center; gap: 15px; } .sort-dropdown { background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255,255,255,0.05); color: #fff; padding: 10px 15px; border-radius: 12px; font-family: 'Outfit', sans-serif; cursor: pointer; outline: none; } .sort-dropdown option { background: #1a1d2d; }

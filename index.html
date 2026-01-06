@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,19 +11,28 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
 
     <div class="background-glob"></div>
-    
+
     <div class="container">
         <header>
             <div class="logo-area">
                 <i class="fa-solid fa-robot"></i>
                 <h1>İndirim<span class="highlight">Botu</span></h1>
             </div>
-            <div class="status-badge" id="last-update">
-                <i class="fa-regular fa-clock"></i>
-                <span>Güncelleniyor...</span>
+            <div class="header-controls">
+                <select id="sort-select" class="sort-dropdown">
+                    <option value="default">Varsayılan Sıralama</option>
+                    <option value="price-asc">Fiyat (Artan)</option>
+                    <option value="price-desc">Fiyat (Azalan)</option>
+                    <option value="newest">En Yeni Kontrol</option>
+                </select>
+                <div class="status-badge" id="last-update">
+                    <i class="fa-regular fa-clock"></i>
+                    <span>Güncelleniyor...</span>
+                </div>
             </div>
         </header>
 
@@ -48,7 +58,7 @@
                 Veriler yükleniyor...
             </div>
         </main>
-        
+
         <footer>
             <p>Github Actions tarafından güçlendirilmiştir 🚀</p>
         </footer>
@@ -56,4 +66,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>

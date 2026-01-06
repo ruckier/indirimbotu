@@ -36,31 +36,49 @@ document.addEventListener('DOMContentLoaded', async () => {
         checkTimeEl.innerText = new Date(lastCheck * 1000).toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' });
         lastUpdateEl.innerHTML = `<i class="fa-solid fa-check"></i> Son Kontrol: ${new Date(lastCheck * 1000).toLocaleString('tr-TR')}`;
 
-        // Grid'i Temizle
-        grid.innerHTML = '';
+        // Render Function
+        const renderProducts = (items) => {
+            grid.innerHTML = '';
+            items.forEach(product => {
+                const date = new Date(product.updated_at * 1000);
+                const timeStr = date.toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' });
 
-        // Kartları Oluştur
-        products.forEach(product => {
-            const date = new Date(product.updated_at * 1000);
-            const timeStr = date.toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' });
+                const card = document.createElement('div');
+                card.className = 'product-card';
 
-            const card = document.createElement('div');
-            card.className = 'product-card';
-
-            card.innerHTML = `
-                <div class="update-badge"><i class="fa-regular fa-clock"></i> ${timeStr}</div>
-                <div class="product-name">${product.name}</div>
-                <div class="product-footer">
-                    <div class="price-tag">
-                        ${product.price.toLocaleString('tr-TR')} <span class="price-currency">TL</span>
+                card.innerHTML = `
+                    <div class="update-badge"><i class="fa-regular fa-clock"></i> ${timeStr}</div>
+                    <div class="product-name">${product.name}</div>
+                    <div class="product-footer">
+                        <div class="price-tag">
+                            ${product.price.toLocaleString('tr-TR')} <span class="price-currency">TL</span>
+                        </div>
+                        <a href="${product.url}" target="_blank" class="visit-btn">
+                            Git <i class="fa-solid fa-arrow-right"></i>
+                        </a>
                     </div>
-                    <a href="${product.url}" target="_blank" class="visit-btn">
-                        Git <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-                </div>
-            `;
+                `;
+                grid.appendChild(card);
+            });
+        };
 
-            grid.appendChild(card);
+        // Initial Render
+        renderProducts(products);
+
+        // Sorting Logic
+        document.getElementById('sort-select').addEventListener('change', (e) => {
+            const sortType = e.target.value;
+            let sortedProducts = [...products];
+
+            if (sortType === 'price-asc') {
+                sortedProducts.sort((a, b) => a.price - b.price);
+            } else if (sortType === 'price-desc') {
+                sortedProducts.sort((a, b) => b.price - a.price);
+            } else if (sortType === 'newest') {
+                sortedProducts.sort((a, b) => b.updated_at - a.updated_at);
+            }
+
+            renderProducts(sortedProducts);
         });
 
     } catch (error) {
