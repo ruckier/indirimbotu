@@ -104,28 +104,39 @@ def save_prices(data):
 # --- İNSAN TAKLİDİ VE YARDIMCILAR ---
 def simulate_human_behavior(page):
     """Sayfanın sonuna kadar scroll yaparak lazy load tetikler."""
+    print(">>> SCROLL BAŞLIYOR <<<")
     try:
-        print("   Sayfa aşağı kaydırılıyor (Lazy Load)...")
         # Önceki yükseklik
         last_height = page.evaluate("document.body.scrollHeight")
         
-        while True:
-            # En aşağı in
-            page.mouse.wheel(0, 15000) # Tekerleği çevir
-            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-            time.sleep(2) # Yüklenmesini bekle
+        for i in range(10): # Maksimum 10 sayfa/tur scroll
+            print(f"   Scroll Turu: {i+1}")
             
-            # Yeni yükseklik
+            # Klavye ile 'End' tuşuna bas (Daha etkili)
+            page.keyboard.press("End")
+            time.sleep(1)
+            
+            # Mouse ile de aşağı in
+            page.mouse.wheel(0, 10000)
+            time.sleep(2)
+            
+            # "Daha Fazla Göster" butonu varsa tıkla
+            try:
+                load_more = page.locator(".action.more, .btn-load-more, button.load-more").first
+                if load_more.is_visible():
+                    print("   'Daha Fazla Göster' butonu bulundu, tıklanıyor...")
+                    load_more.click()
+                    time.sleep(3)
+            except: pass
+
+            # Yeni yükseklik kontrolü
             new_height = page.evaluate("document.body.scrollHeight")
             if new_height == last_height:
-                break # Daha fazla yüklenen bir şey yok
+                print("   Sayfa sonuna gelindi (Yükseklik değişmedi).")
+                break 
             last_height = new_height
             
-            # Biraz yukarı çıkıp tekrar in (İnsan gibi)
-            page.mouse.wheel(0, -500)
-            time.sleep(0.5)
-            
-        print("   Scroll tamamlandı.")
+        print(">>> SCROLL BİTTİ <<<")
         
     except Exception as e:
         print(f"Human behavior hatası: {e}")
