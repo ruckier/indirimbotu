@@ -30,8 +30,54 @@ def send_telegram(message):
     payload = {"chat_id": config.TELEGRAM_CHAT_ID, "text": message}
     try:
         requests.post(url, data=payload, timeout=10)
+    try:
+        requests.post(url, data=payload, timeout=10)
     except Exception as e:
         print(f"Telegram hatası: {e}")
+
+def get_telegram_updates():
+    if not config.TELEGRAM_TOKEN: return []
+    url = f"https://api.telegram.org/bot{config.TELEGRAM_TOKEN}/getUpdates"
+    try:
+        response = requests.get(url, timeout=10).json()
+        if response.get("ok"):
+            return response["result"]
+    except Exception as e:
+        print(f"Telegram update hatası: {e}")
+    return []
+
+def check_new_urls():
+    """Telegramdan gelen /ekle komutlarini kontrol eder."""
+    updates = get_telegram_updates()
+    new_urls = []
+    
+    # Mevcut URL'leri oku
+    existing_urls = []
+    if os.path.exists(URLS_FILE):
+        with open(URLS_FILE, "r") as f:
+            existing_urls = [line.strip() for line in f if line.strip()]
+
+    processed_update_ids = []
+
+    for update in updates:
+        if "message" in update and "text" in update["message"]:
+            text = update["message"]["text"]
+            chat_id = str(update["message"]["chat"]["id"])
+            
+            # Sadece bizim chat_id'den gelen komutları kabul et (Güvenlik)
+            if chat_id != config.TELEGRAM_CHAT_ID: continue
+            
+            if text.startswith("/ekle "):
+                url_to_add = text.split("/ekle ", 1)[1].strip()
+                if url_to_add.startswith("http") and url_to_add not in existing_urls and url_to_add not in new_urls:
+                    new_urls.append(url_to_add)
+                    send_telegram(f"✅ Yeni link listeye eklendi: {url_to_add}")
+    
+    if new_urls:
+        with open(URLS_FILE, "a") as f:
+            for url in new_urls:
+                f.write(f"\n{url}")
+        print(f"{len(new_urls)} yeni link eklendi.")
 
 def send_telegram_photo(message, photo_path):
     if not config.TELEGRAM_TOKEN or not config.TELEGRAM_CHAT_ID:
@@ -126,6 +172,10 @@ def process_gsstore(page, url):
 # --- ANA MOTOR ---
 def main():
     print("Bot Calisiyor... (Stealth Mode: ON)")
+    
+    # Önce yeni emirler var mı diye bak
+    check_new_urls()
+    
     discount_found = False
     
     if not os.path.exists(URLS_FILE):
