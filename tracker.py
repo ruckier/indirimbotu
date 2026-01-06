@@ -1,6 +1,4 @@
-print("DEBUG: Script basliyor...")
 import json
-print("DEBUG: json import ok")
 import os
 import time
 import random
@@ -8,7 +6,6 @@ import requests
 from playwright.sync_api import sync_playwright
 from playwright_stealth import Stealth
 from fake_useragent import UserAgent
-print("DEBUG: Tum importlar bitti")
 
 # --- AYARLAR ---
 URLS_FILE = "urls.txt"
@@ -206,13 +203,10 @@ def process_gsstore(page, url):
 
 # --- ANA MOTOR ---
 def main():
-    print("DEBUG: Main fonksiyonuna girildi")
     print("Bot Calisiyor... (Stealth Mode: ON)")
     
     # Önce yeni emirler var mı diye bak
-    print("DEBUG: Telegram kontrol ediliyor...")
     check_new_urls()
-    print("DEBUG: Telegram kontrol bitti")
     
     discount_found = False
     
@@ -226,9 +220,11 @@ def main():
     old_prices = load_prices()
     new_prices = old_prices.copy()
     
-    ua = UserAgent()
-    user_agent = ua.random
-    print(f"User-Agent: {user_agent[:30]}...")
+    # ua = UserAgent()
+    # user_agent = ua.random
+    # Mobil siteyi engellemek için SABİT Masaüstü User-Agent kullanıyoruz
+    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    print(f"User-Agent: {user_agent}")
 
     with sync_playwright() as p:
         # Stealth Tarayıcı Başlatma
