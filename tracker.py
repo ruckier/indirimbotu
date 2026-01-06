@@ -33,6 +33,20 @@ def send_telegram(message):
     except Exception as e:
         print(f"Telegram hatası: {e}")
 
+def send_telegram_photo(message, photo_path):
+    if not config.TELEGRAM_TOKEN or not config.TELEGRAM_CHAT_ID:
+        return
+
+    url = f"https://api.telegram.org/bot{config.TELEGRAM_TOKEN}/sendPhoto"
+    payload = {"chat_id": config.TELEGRAM_CHAT_ID, "caption": message}
+    
+    try:
+        with open(photo_path, 'rb') as f:
+            files = {'photo': f}
+            requests.post(url, data=payload, files=files, timeout=20)
+    except Exception as e:
+        print(f"Telegram Foto hatası: {e}")
+
 # --- KAYIT SİSTEMİ ---
 def load_prices():
     if os.path.exists(PRICES_FILE):
@@ -164,26 +178,47 @@ def main():
                 
                 print(f"   -> {len(found_products)} ürün çekildi.")
                 
+
                 # Fiyat Kontrolü
                 for prod in found_products:
                     uid = prod["url"]
                     price = prod["price"]
                     name = prod["name"]
                     
+                    last_updated = time.time()
+                    price_changed = True # Varsayılan olarak değişti kabul et (ilk kez ekleniyorsa)
+
                     if uid in old_prices:
                         old_price = old_prices[uid]["price"]
-                        if price < old_price:
+                        
+                        # Eğer fiyat değişmediyse, updated_at'i DEĞİŞTİRME (Commit kirliliğini önle!)
+                        if price == old_price:
+                            price_changed = False
+                            last_updated = old_prices[uid]["updated_at"]
+                        
+                        elif price < old_price:
+                            # İndirim VAR!
                             discount = int(((old_price - price) / old_price) * 100)
                             if discount >= 5:
                                 msg = f"INDIRIM! (%{discount})\n\n{name}\nEski: {old_price} TL\nYeni: {price} TL\nLink: {uid}"
                                 print(f"   Bildirim: {name}")
-                                send_telegram(msg)
+                                
+                                # Ekran Görüntüsü Al
+                                screenshot_path = f"screenshot_{int(time.time())}.png"
+                                try:
+                                    page.screenshot(path=screenshot_path)
+                                    send_telegram_photo(msg, screenshot_path)
+                                    os.remove(screenshot_path) # Resmi gönderdikten sonra sil
+                                except Exception as err:
+                                    print(f"Screenshot hatası: {err}")
+                                    send_telegram(msg) # Resim atamazsan normal mesaj at
+                                
                                 discount_found = True
                     
                     new_prices[uid] = {
                         "name": name,
                         "price": price,
-                        "updated_at": time.time()
+                        "updated_at": last_updated
                     }
                     
                 time.sleep(random.uniform(3, 7)) # Rastgele bekleme
