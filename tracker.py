@@ -143,35 +143,51 @@ def process_gsstore(page, url):
     products = []
     print(f"GSSTORE: {url}")
     
-    # Sayfanın tam yüklenmesini bekle
-    try:
-        page.wait_for_selector(".product-item", timeout=20000, state="visible")
-    except:
-        print("Standart selector (.product-item) bulunamadı, alternatif deneniyor...")
-        # Alternatif selectorler eklenebilir veya sayfa bos
+    # Sayfa Başlığı
+    print(f"   Sayfa Başlığı: {page.title()}")
+
+    # Alternatif Selectorler
+    selectors = [".product-item", ".product-item-info", "li.item.product"]
+    items = []
     
-    # Ürünleri topla
-    items = page.locator(".product-item").all()
-    
+    for sel in selectors:
+        count = page.locator(sel).count()
+        if count > 0:
+            print(f"   Selector '{sel}' ile {count} ürün bulundu.")
+            items = page.locator(sel).all()
+            break
+            
     if not items:
-        print("HİÇ ÜRÜN BULUNAMADI! Sayfa yapısı değişmiş olabilir.")
-        # send_telegram(f"⚠️ Hata: {url} adresinde ürün bulamadım. Kodları kontrol et!")
+        print("!!! HİÇ ÜRÜN BULUNAMADI !!!")
+        print("Sayfa HTML Özeti (Body):")
+        try:
+            body_html = page.inner_html("body")
+            print(body_html[:1000]) # İlk 1000 karakteri bas
+        except:
+            print("HTML alınamadı.")
+            
         return []
 
+    counter = 0
     for item in items:
+        counter += 1
         try:
+            # DEBUG: İlk 3 ürünün detayını görelim
+            if counter <= 3:
+                print(f"--- ANALİZ ÜRÜN {counter} ---")
+                print(f"HTML Çıktısı: {item.inner_html()[:200]}...") # İlk 200 karakter
+
             # Ürün Adı
-            # Hızlı kontrol: Önce .product-item-link metnini dene, yoksa resim alt text'i, yoksa genel text
             name = "İsimsiz Ürün"
             name_el = item.locator(".product-item-link").first
             if name_el.count() > 0:
                 name = name_el.inner_text().strip()
             
-            # Link - DAHA BASİT VE HIZLI YÖNTEM
-            # Kartın içindeki HERHANGİ bir linki al
+            if counter <= 3: print(f"   Bulunan İsim: {name}")
+
+            # Link
             href = None
             link_el = item.locator("a").first
-            # 500ms bekle, varsa al yoksa geç (30s bekleme!)
             try:
                 href = link_el.get_attribute("href", timeout=500)
             except:
@@ -181,19 +197,27 @@ def process_gsstore(page, url):
             if href:
                 full_link = href if href.startswith("http") else "https://www.gsstore.org" + href
             
+            if counter <= 3: print(f"   Bulunan Link: {full_link}")
+
             # Fiyat
             price = None
-            # Fiyat kutusu genelde .price-box içindedir
             price_el = item.locator(".price-box .price").first
             
+            raw_price_text = "YOK"
             if price_el.count() > 0:
-                 raw_price = price_el.inner_text()
-                 price = parse_price(raw_price)
+                 raw_price_text = price_el.inner_text()
+                 price = parse_price(raw_price_text)
+            
+            if counter <= 3: 
+                print(f"   Bulunan Fiyat Text: {raw_price_text}")
+                print(f"   Parse Edilen Fiyat: {price}")
             
             if full_link and price:
                 products.append({"name": name, "url": full_link, "price": price})
-                print(f"   + Bulundu: {name} - {price} TL") # Debug için bas
-                
+                print(f"   + EKLENDİ: {name} - {price} TL") 
+            else:
+                if counter <= 3: print("   ! EKLENMEDİ (Eksik Veri)")
+
         except Exception as e: 
             print(f"Ürün hatası (Atlanıyor): {e}")
             continue
