@@ -1,4 +1,6 @@
+print("DEBUG: Script basliyor...")
 import json
+print("DEBUG: json import ok")
 import os
 import time
 import random
@@ -6,6 +8,7 @@ import requests
 from playwright.sync_api import sync_playwright
 from playwright_stealth import Stealth
 from fake_useragent import UserAgent
+print("DEBUG: Tum importlar bitti")
 
 # --- AYARLAR ---
 URLS_FILE = "urls.txt"
@@ -199,10 +202,13 @@ def process_gsstore(page, url):
 
 # --- ANA MOTOR ---
 def main():
+    print("DEBUG: Main fonksiyonuna girildi")
     print("Bot Calisiyor... (Stealth Mode: ON)")
     
     # Önce yeni emirler var mı diye bak
+    print("DEBUG: Telegram kontrol ediliyor...")
     check_new_urls()
+    print("DEBUG: Telegram kontrol bitti")
     
     discount_found = False
     
