@@ -46,7 +46,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const card = document.createElement('div');
                 card.className = 'product-card';
 
+                // Görsel URL'si varsa kullan, yoksa placeholder
+                const imgUrl = (product.image && product.image.length > 5) ? product.image : 'https://via.placeholder.com/300x300?text=No+Image';
+
                 card.innerHTML = `
+                    <div class="product-image-container">
+                        <img src="${imgUrl}" alt="${product.name}" class="product-img" loading="lazy" onerror="this.src='https://via.placeholder.com/300x300?text=IndirimBotu'">
+                    </div>
                     <div class="update-badge"><i class="fa-regular fa-clock"></i> ${timeStr}</div>
                     <div class="product-name">${product.name}</div>
                     <div class="product-footer">

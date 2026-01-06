@@ -226,10 +226,27 @@ def process_gsstore(page, url):
             if href:
                 full_link = href if href.startswith("http") else "https://www.gsstore.org" + href
 
+            # Görsel URL
+            image_url = ""
+            try:
+                img_el = item.locator("img").first
+                if img_el.count() > 0:
+                    image_url = img_el.get_attribute("src")
+                    # Lazy load kontrolü
+                    if not image_url or "placeholder" in image_url:
+                        data_src = img_el.get_attribute("data-src")
+                        if data_src: image_url = data_src
+            except: pass
+
             if full_link and price:
                 if str(price) in name:
                     name = name.replace(str(price), "").replace("TL", "").strip()
-                products.append({"name": name, "url": full_link, "price": price})
+                products.append({
+                    "name": name, 
+                    "url": full_link, 
+                    "price": price,
+                    "image": image_url
+                })
                 
         except Exception as e: 
             continue
@@ -292,6 +309,7 @@ def main():
                     uid = prod["url"]
                     price = prod["price"]
                     name = prod["name"]
+                    image = prod.get("image", "")
                     
                     last_updated = time.time()
                     price_changed = True
@@ -320,6 +338,7 @@ def main():
                     new_prices[uid] = {
                         "name": name,
                         "price": price,
+                        "image": image,
                         "updated_at": last_updated
                     }
                 time.sleep(random.uniform(3, 7))
