@@ -164,37 +164,41 @@ def process_gsstore(page, url):
     for item in items:
         try:
             # Ürün Adı
-            name_el = item.locator(".product-name a").first
-            if not name_el.is_visible():
-                name_el = item.locator(".product-name").first
+            # Hızlı kontrol: Önce .product-item-link metnini dene, yoksa resim alt text'i, yoksa genel text
+            name = "İsimsiz Ürün"
+            name_el = item.locator(".product-item-link").first
+            if name_el.count() > 0:
+                name = name_el.inner_text().strip()
             
-            name = name_el.inner_text().strip() if name_el.is_visible() else "İsimsiz Ürün"
-            
-            # Link
-            link_el = item.locator("a.product-item-link").first
-            if not link_el.is_visible():
-                 link_el = item.locator(".product-item-photo").first
-            
-            href = link_el.get_attribute("href")
-            full_link = href if href.startswith("http") else "https://www.gsstore.org" + href
+            # Link - DAHA BASİT VE HIZLI YÖNTEM
+            # Kartın içindeki HERHANGİ bir linki al
+            href = None
+            link_el = item.locator("a").first
+            # 500ms bekle, varsa al yoksa geç (30s bekleme!)
+            try:
+                href = link_el.get_attribute("href", timeout=500)
+            except:
+                pass
+
+            full_link = None
+            if href:
+                full_link = href if href.startswith("http") else "https://www.gsstore.org" + href
             
             # Fiyat
             price = None
-            price_el = item.locator(".price-box .price").first # Daha genel selector
+            # Fiyat kutusu genelde .price-box içindedir
+            price_el = item.locator(".price-box .price").first
             
-            if price_el.is_visible():
-                price = parse_price(price_el.inner_text())
+            if price_el.count() > 0:
+                 raw_price = price_el.inner_text()
+                 price = parse_price(raw_price)
             
-            # Yedek fiyat kontrolü
-            if not price:
-                 price_el = item.locator(".min-price .price").first
-                 if price_el.is_visible():
-                     price = parse_price(price_el.inner_text())
-
             if full_link and price:
                 products.append({"name": name, "url": full_link, "price": price})
+                print(f"   + Bulundu: {name} - {price} TL") # Debug için bas
+                
         except Exception as e: 
-            print(f"Ürün ayrıştırma hatası: {e}")
+            print(f"Ürün hatası (Atlanıyor): {e}")
             continue
             
     return products
