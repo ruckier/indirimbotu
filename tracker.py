@@ -30,8 +30,6 @@ def send_telegram(message):
     payload = {"chat_id": config.TELEGRAM_CHAT_ID, "text": message}
     try:
         requests.post(url, data=payload, timeout=10)
-    try:
-        requests.post(url, data=payload, timeout=10)
     except Exception as e:
         print(f"Telegram hatası: {e}")
 
