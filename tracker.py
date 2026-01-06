@@ -158,7 +158,8 @@ def main():
                 if "gsstore" in url:
                     found_products = process_gsstore(page, url)
                 else:
-                    print("  -> Tanımsız site (Sadece GSStore destekleniyor).")
+                    print("  -> Desteklenmeyen link, atlanıyor.")
+                    continue
                 
                 print(f"   -> {len(found_products)} ürün çekildi.")
                 
