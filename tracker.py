@@ -112,6 +112,7 @@ def process_gsstore(page, url):
 # --- ANA MOTOR ---
 def main():
     print("Bot Calisiyor... (Stealth Mode: ON)")
+    discount_found = False
     
     if not os.path.exists(URLS_FILE):
         print("urls.txt bulunamadı!")
@@ -177,6 +178,7 @@ def main():
                                 msg = f"INDIRIM! (%{discount})\n\n{name}\nEski: {old_price} TL\nYeni: {price} TL\nLink: {uid}"
                                 print(f"   Bildirim: {name}")
                                 send_telegram(msg)
+                                discount_found = True
                     
                     new_prices[uid] = {
                         "name": name,
@@ -193,6 +195,9 @@ def main():
         
     save_prices(new_prices)
     print("\nKontrol Tamamlandi.")
+    
+    if not discount_found:
+        send_telegram("Kontrol ettim, herhangi bir değişiklik yok.")
 
 if __name__ == "__main__":
     main()
