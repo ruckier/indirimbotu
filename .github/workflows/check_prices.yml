@@ -41,6 +41,9 @@ jobs:
         git config --global user.name "GitHub Actions Bot"
         git config --global user.email "actions@github.com"
         git add prices.json
-        # Eğer değişiklik varsa commit et, yoksa hata verme
-        git commit -m "Fiyatlar güncellendi [skip ci]" || echo "Değişiklik yok"
-        git push
+        if git diff --staged --quiet; then
+          echo "Değişiklik yok, push atlanıyor."
+        else
+          git commit -m "Fiyatlar güncellendi [skip ci]"
+          git push
+        fi
