@@ -142,28 +142,58 @@ def parse_price(text):
 def process_gsstore(page, url):
     products = []
     print(f"GSSTORE: {url}")
-    if "giyim" in url or "aksesuar" in url or "koleksiyon" in url:
+    
+    # Sayfanın tam yüklenmesini bekle
+    try:
+        page.wait_for_selector(".product-item", timeout=20000, state="visible")
+    except:
+        print("Standart selector (.product-item) bulunamadı, alternatif deneniyor...")
+        # Alternatif selectorler eklenebilir veya sayfa bos
+    
+    # Ürünleri topla
+    items = page.locator(".product-item").all()
+    
+    if not items:
+        print("HİÇ ÜRÜN BULUNAMADI! Sayfa yapısı değişmiş olabilir.")
+        # send_telegram(f"⚠️ Hata: {url} adresinde ürün bulamadım. Kodları kontrol et!")
+        return []
+
+    for item in items:
         try:
-            page.wait_for_selector(".product-item", timeout=15000)
-        except:
-            print("GSStore ürünleri yüklenemedi.")
-            return []
-            
-        items = page.locator(".product-item").all()
-        for item in items:
-            try:
+            # Ürün Adı
+            name_el = item.locator(".product-name a").first
+            if not name_el.is_visible():
                 name_el = item.locator(".product-name").first
-                name = name_el.inner_text().strip() if name_el.is_visible() else "GS Urunu"
-                link_el = item.locator("a").first
-                href = link_el.get_attribute("href")
-                full_link = href if href.startswith("http") else "https://www.gsstore.org" + href
-                price = None
-                price_el = item.locator(".product-price .new-price, .product-price").first
-                if price_el.is_visible():
-                    price = parse_price(price_el.inner_text())
-                if full_link and price:
-                    products.append({"name": name, "url": full_link, "price": price})
-            except: continue
+            
+            name = name_el.inner_text().strip() if name_el.is_visible() else "İsimsiz Ürün"
+            
+            # Link
+            link_el = item.locator("a.product-item-link").first
+            if not link_el.is_visible():
+                 link_el = item.locator(".product-item-photo").first
+            
+            href = link_el.get_attribute("href")
+            full_link = href if href.startswith("http") else "https://www.gsstore.org" + href
+            
+            # Fiyat
+            price = None
+            price_el = item.locator(".price-box .price").first # Daha genel selector
+            
+            if price_el.is_visible():
+                price = parse_price(price_el.inner_text())
+            
+            # Yedek fiyat kontrolü
+            if not price:
+                 price_el = item.locator(".min-price .price").first
+                 if price_el.is_visible():
+                     price = parse_price(price_el.inner_text())
+
+            if full_link and price:
+                products.append({"name": name, "url": full_link, "price": price})
+        except Exception as e: 
+            print(f"Ürün ayrıştırma hatası: {e}")
+            continue
+            
     return products
 
 
