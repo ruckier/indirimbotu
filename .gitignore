@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
 config.py
+.last_update_id
 
 .env
 venv/
