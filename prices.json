@@ -1844,7 +1844,7 @@
     "https://www.gsstore.org/galatasaray-erkek-t-shirt-12263949/": {
         "name": "Galatasaray Erkek T-shirt 12263949",
         "price": 899.99,
-        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/06/25/75057/a9856828-3393-42d8-a10a-d4dc53364da3_size360x480_cropCenter.jpg",
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/06/25/75057/3376be53-e44d-4bd0-8566-d19b90a51b6f_size360x480_cropCenter.jpg",
         "updated_at": 1767733113.7160609
     },
     "https://www.gsstore.org/galatasaray-erkek-esofman-takim-e232241/": {
@@ -2446,5 +2446,17 @@
         "price": 2199.99,
         "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/02/159762/66998ad8-b184-4f54-8d29-5829f8568c3b_size360x480_cropCenter.jpg",
         "updated_at": 1767774181.4241948
+    },
+    "https://www.gsstore.org/galatasaray-ucl-erkek-sweatshirt-e252229/": {
+        "name": "Galatasaray UCL Erkek Sweatshirt E252229",
+        "price": 1899.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2026/01/07/211386/35e6106c-f1b5-46eb-9e5b-f41d0ce0ff59_size360x480_cropCenter.jpg",
+        "updated_at": 1767784569.9630723
+    },
+    "https://www.gsstore.org/galatasaray-ucl-erkek-hoodie-e252222/": {
+        "name": "Galatasaray UCL Erkek Hoodie E252222",
+        "price": 2299.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2026/01/07/211345/4f9054a9-be40-4ebe-8450-fdb206ebdc1c_size360x480_cropCenter.jpg",
+        "updated_at": 1767784569.9630759
     }
 }
