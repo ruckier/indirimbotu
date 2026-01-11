@@ -926,7 +926,7 @@
     "https://www.gsstore.org/galatasaray-erkek-deniz-sortu-e251084-5/": {
         "name": "Galatasaray Erkek Deniz Şortu E251084",
         "price": 899.99,
-        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/04/25/156639/56cc99be-e4f4-45a8-9900-d1efc174fa59_size360x480_cropCenter.jpg",
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/04/25/156639/94b644b7-2b36-4ca2-96cc-8befa9afbd6d_size360x480_cropCenter.jpg",
         "updated_at": 1767733113.7156684
     },
     "https://www.gsstore.org/galatasaray-erkek-deniz-sortu-e251083-3/": {
@@ -2458,5 +2458,677 @@
         "price": 2299.99,
         "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2026/01/07/211345/4f9054a9-be40-4ebe-8450-fdb206ebdc1c_size360x480_cropCenter.jpg",
         "updated_at": 1767784569.9630759
+    },
+    "https://www.gsstore.org/galatasaray-cocuk-wilfried-zaha-design-fc-t-shirt-c232267-3/": {
+        "name": "Galatasaray Çocuk Wilfried Zaha Design FC T-Shirt C232267",
+        "price": 799.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/09/10/23901/f9d667be-291f-40b4-ad42-59e438058f16_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.2957616
+    },
+    "https://www.gsstore.org/galatasaray-cocuk-victor-nelsson-design-fc-t-shirt-c232381-2/": {
+        "name": "Galatasaray Çocuk Victor Nelsson Design FC T-Shirt C232381",
+        "price": 799.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/09/09/44996/e4a6c37b-5c47-4b48-8174-7d054802e9a0_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.2957733
+    },
+    "https://www.gsstore.org/galatasaray-derrick-kohn-design-fc-t-shirt-c232395/": {
+        "name": "Galatasaray Derrick Köhn Design FC T-Shirt C232395",
+        "price": 799.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/09/09/30009/6a94d432-cc36-4b94-8724-98a7017d710e_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.295781
+    },
+    "https://www.gsstore.org/basketbol-forma-erkek-e222500-10/": {
+        "name": "BASKETBOL FORMA/ERKEK E222500",
+        "price": 1039.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/02/12/19304/5e273c24-8141-471e-aa43-38527cbb20ac_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.295796
+    },
+    "https://www.gsstore.org/galatasaray-cocuk-tanguy-ndombele-design-fc-t-shirt-c232384-2/": {
+        "name": "Galatasaray Çocuk Tanguy Ndombele Design FC T-Shirt C232384",
+        "price": 799.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/09/09/45010/0d752986-d4e9-4122-9db4-ccd8f8709f77_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.2958198
+    },
+    "https://www.gsstore.org/galatasaray-sergio-oliveira-design-fc-t-shirt-c232394-2/": {
+        "name": "Galatasaray Sergio Oliveira Design FC T-Shirt C232394",
+        "price": 799.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/09/09/30001/48c927af-3468-4b4a-9e30-cefc5ae6481b_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.295824
+    },
+    "https://www.gsstore.org/galatasaray-cocuk-batshuayi-design-fc-t-shirt-c241310/": {
+        "name": "Galatasaray Çocuk Batshuayi Design FC T-Shirt C241310",
+        "price": 799.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/11/22/151026/8e1d8900-b249-40e9-8f97-b2da898a0cf3_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.2958257
+    },
+    "https://www.gsstore.org/galatasaray-erkek-3-lu-karisik-basic-t-shirt-e241273-4/": {
+        "name": "Galatasaray Erkek 3`lü Karışık Basic T-Shirt E241273",
+        "price": 1399.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/06/25/75431/63c1a583-c70a-4d71-bccc-f7ea3d76de16_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.29585
+    },
+    "https://www.gsstore.org/galatasaray-erkek-t-shirt-y241210/": {
+        "name": "Galatasaray Erkek T-Shirt Y241210",
+        "price": 799.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/06/24/77786/88621cf1-b018-4b43-9f75-f8a50ec3a312_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.2958896
+    },
+    "https://www.gsstore.org/galatasaray-erkek-polo-t-shirt-e241144-7/": {
+        "name": "Galatasaray Erkek Polo T-Shirt E241144",
+        "price": 1299.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/06/25/77377/a13f55b6-1b00-497d-9401-c3ca93892663_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.2959194
+    },
+    "https://www.gsstore.org/galatasaray-erkek-polo-t-shirt-e241129-4/": {
+        "name": "Galatasaray Erkek Polo T-Shirt E241129",
+        "price": 1299.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/09/23/77341/18cc5573-ef16-4bee-8aba-6dae4a5b0218_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.2959282
+    },
+    "https://www.gsstore.org/galatasaray-erkek-polo-t-shirt-e241115-3/": {
+        "name": "Galatasaray Erkek Polo T-Shirt E241115",
+        "price": 1299.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/09/23/77331/4e077a68-a998-4c6c-b074-b2c54dbe9152_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.2959297
+    },
+    "https://www.gsstore.org/basketbol-forma-erkek-e222500-9/": {
+        "name": "BASKETBOL FORMA/ERKEK E222500",
+        "price": 1039.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/02/12/19289/a86a05ae-ac33-4b48-ba74-a8b9b4a42f29_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.2959614
+    },
+    "https://www.gsstore.org/basketbol-forma-erkek-e222500-7/": {
+        "name": "BASKETBOL FORMA/ERKEK E222500",
+        "price": 1039.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/02/12/19295/7a154486-bbc3-437e-b1be-e974cc22f93c_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.2959626
+    },
+    "https://www.gsstore.org/galatasaray-erkek-polo-t-shirt-e231143-301-2/": {
+        "name": "Galatasaray Erkek Polo T-Shirt E231143-301",
+        "price": 1499.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/15555/9cb1aa31-7ecd-403d-9229-09497c5c1a76_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.296017
+    },
+    "https://www.gsstore.org/galatasaray-erkek-polo-t-shirt-e231102-050/": {
+        "name": "Galatasaray Erkek Polo T-Shirt E231102-050",
+        "price": 899.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/17386/ce69a230-1153-4bba-9f4f-0a44e573ed65_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.2960184
+    },
+    "https://www.gsstore.org/galatasaray-2025-sampiyonluk-design-fc-t-shirt-e251406/": {
+        "name": "Galatasaray 2025 Şampiyonluk Design FC T-Shirt E251406",
+        "price": 999.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/28/161543/6b12b86e-7a89-4755-b8a1-cd46d467178e_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.2960272
+    },
+    "https://www.gsstore.org/galatasaray-erkek-polo-t-shirt-e241508-1/": {
+        "name": "Galatasaray Erkek Polo T-Shirt E241508",
+        "price": 999.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/10/05/149825/feeadfae-eca9-4629-9640-46dcb0e8865d_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.296323
+    },
+    "https://www.gsstore.org/galatasaray-erkek-polo-t-shirt-e241508/": {
+        "name": "Galatasaray Erkek Polo T-Shirt E241508",
+        "price": 999.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/10/05/149821/2a26eca9-fa90-4636-9915-55e56597546c_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.2963257
+    },
+    "https://www.gsstore.org/galatasaray-the-special-three-t-shirt-e241991-3/": {
+        "name": "Galatasaray The Special Three T-Shirt E241991",
+        "price": 699.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/09/22/150535/0038b09f-77fc-41f0-9722-a77cafef3c2f_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.2963283
+    },
+    "https://www.gsstore.org/galatasaray-jelert-welcome-tee-e241529/": {
+        "name": "Galatasaray Jelert Welcome Tee E241529",
+        "price": 699.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/07/25/149758/b8e03949-5624-4c4c-9e0a-d8ce8fbe464f_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.2963312
+    },
+    "https://www.gsstore.org/galatasaray-petrol-ofisi-forma-e232349-2/": {
+        "name": "Galatasaray Petrol Ofisi Forma E232349",
+        "price": 799.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/05/30/77960/d426c0db-891b-4a60-8525-8be6bba68b57_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.2963321
+    },
+    "https://www.gsstore.org/basketbol-100-yil-forma-e232291-2/": {
+        "name": "Basketbol 100.Yıl Forma E232291",
+        "price": 1923.0,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/03/27/21818/62d0965b-3997-4b8f-94a3-32ff06919c83_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.296351
+    },
+    "https://www.gsstore.org/voleybol-forma-erkek-e222503/": {
+        "name": "VOLEYBOL FORMA /ERKEK E222503",
+        "price": 1039.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/02/12/19318/365a7145-fded-4e69-b27d-686313c35309_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.2963607
+    },
+    "https://www.gsstore.org/galatasaray-berkan-kutlu-design-fc-t-shirt-e232385/": {
+        "name": "Galatasaray Berkan Kutlu Design FC T-shirt E232385",
+        "price": 849.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/11/22/46774/ad1601b6-1b06-485d-99a0-82193cc41798_size360x480_cropCenter.jpg",
+        "updated_at": 1768159278.2963634
+    },
+    "https://www.gsstore.org/galata-triko-battaniye-120x170-cm-u231448/": {
+        "name": "Galata Triko Battaniye 120x170 cm U231448",
+        "price": 999.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/09/02/150088/cff2059d-5a66-4422-8eff-0b2616341039_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.434085
+    },
+    "https://www.gsstore.org/galatasaray-bucket-sapka-u251545/": {
+        "name": "Galatasaray Bucket Şapka U251545",
+        "price": 899.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/08/19/208125/3f1dd7dc-a19d-431a-bf11-5d70184e318f_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341047
+    },
+    "https://www.gsstore.org/galatasaray-forma-anahtarlik-u251380/": {
+        "name": "Galatasaray Forma Anahtarlık U251380",
+        "price": 99.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/17/159871/d3891d5a-864a-42ba-818c-daed4a98bb71_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341066
+    },
+    "https://www.gsstore.org/galatasaray-25-sampiyonluk-bardak-altligi-u251420/": {
+        "name": "Galatasaray 25. Şampiyonluk Bardak Altlığı U251420",
+        "price": 149.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/18/161395/0b50436f-5e1d-42e1-b2df-ab4c32e98edd_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.434109
+    },
+    "https://www.gsstore.org/galatasaray-25-sampiyonluk-sapka-u251374/": {
+        "name": "Galatasaray 25 Şampiyonluk Şapka U251374",
+        "price": 699.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/18/160770/faadb4a3-2484-42b5-a4ba-699910cce6ab_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341102
+    },
+    "https://www.gsstore.org/galatasaray-bucket-sapka-u251547/": {
+        "name": "Galatasaray Bucket Şapka U251547",
+        "price": 849.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/08/19/208126/1c60265e-bfb3-4d20-be6c-51e956ceb393_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341123
+    },
+    "https://www.gsstore.org/galatasaray-25-sampiyonluk-led-lamba-u251383/": {
+        "name": "Galatasaray 25 Şampiyonluk Led Lamba U251383",
+        "price": 1299.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/18/160798/f64bfa82-9b85-499e-92a0-b81b1567a03a_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341135
+    },
+    "https://www.gsstore.org/galatasaray-atki-anahtarlik-u251378/": {
+        "name": "Galatasaray Atkı Anahtarlık U251378",
+        "price": 99.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/17/159867/90827339-6812-49c6-8fc3-057ef53f8834_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341152
+    },
+    "https://www.gsstore.org/galatasaray-bucket-sapka-u251546/": {
+        "name": "Galatasaray Bucket Şapka U251546",
+        "price": 849.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/08/19/208127/b8a10021-384a-43c7-8312-60a2baca8266_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341166
+    },
+    "https://www.gsstore.org/galatasaray-baskili-kare-yastik-u231376/": {
+        "name": "Galatasaray Baskılı Kare Yastık U231376",
+        "price": 649.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/01/12/21587/730d4e2c-c75f-4c2e-be00-f6b596a407aa_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341176
+    },
+    "https://www.gsstore.org/galatasaray-2-li-magnet-set-u251382/": {
+        "name": "Galatasaray 2`li Magnet Set U251382",
+        "price": 179.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/21/159869/d82f63bc-8bfa-4f89-99b1-ba416cba71f6_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341192
+    },
+    "https://www.gsstore.org/galatasaray-silikon-beslenme-seti-u231800/": {
+        "name": "Galatasaray Silikon Beslenme Seti U231800",
+        "price": 1099.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/04/17/74396/925ee68d-1faa-4e5a-8d05-15725fec03d7_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341204
+    },
+    "https://www.gsstore.org/galatasaray-2-li-patch-u241397/": {
+        "name": "Galatasaray 2`li Patch U241397",
+        "price": 199.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/07/29/74931/d8037f3e-8511-4772-8f7f-13d1e15a9b88_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341214
+    },
+    "https://www.gsstore.org/galatasaray-elde-sallama-yatay-degrade-bayrak-100x150-u241384/": {
+        "name": "Galatasaray Elde Sallama Yatay Degrade Bayrak 100x150 U241384",
+        "price": 399.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/09/27/74888/f06b7b9d-2217-4343-aba4-e97d47ebd717_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341226
+    },
+    "https://www.gsstore.org/galatasaray-25-sampiyonluk-magnet-u251419/": {
+        "name": "Galatasaray 25. Şampiyonluk Magnet U251419",
+        "price": 149.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/24/161397/4a6a22ec-7623-4453-8f24-e17b5f5e2a6c_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341242
+    },
+    "https://www.gsstore.org/2023-2024-super-lig-sampiyonluk-kupasi-minyatur16-cm-kutulu-u241476/": {
+        "name": "2023-2024 Süper Lig Şampiyonluk Kupası Minyatür16 cm (kutulu) U241476",
+        "price": 3599.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/08/19/77905/1f7f877a-3025-47b2-adc2-3e9b3112c0a0_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341257
+    },
+    "https://www.gsstore.org/galatasaray-harf-anahtarlik-u231814/": {
+        "name": "Galatasaray Harf Anahtarlık U231814",
+        "price": 149.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/05/10/28615/948da813-ac1d-482f-b01b-e8e1f544745b_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341269
+    },
+    "https://www.gsstore.org/galatasaray-erkek-ipek-kravat-u221484-1/": {
+        "name": "Galatasaray Erkek İpek Kravat U221484",
+        "price": 694.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/04/16/20149/f7745050-a44f-47a0-8e52-3c191b9cd281_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341276
+    },
+    "https://www.gsstore.org/galatasaray-t-masa-bayragi-u191239-u191239-999/": {
+        "name": "Galatasaray T Masa Bayrağı U191239",
+        "price": 279.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/11342/48c01ad6-31b5-46fd-9f85-c9018e64aa49_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.434129
+    },
+    "https://www.gsstore.org/galatasaray-deri-aslanli-anahtarlik-u212240-u212240-208/": {
+        "name": "Galatasaray Deri Aslanlı Anahtarlık U212240",
+        "price": 229.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/5004/db62851a-787f-4543-a6b1-037aae1a09fa_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341302
+    },
+    "https://www.gsstore.org/galatasaray-4-yildizli-klasik-elde-sallama-bayrak-100x150-u880142-u880142-209/": {
+        "name": "Galatasaray 4 Yıldızlı Klasik Elde Sallama Bayrak 100x150 U880142",
+        "price": 399.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/8146/266ce9c0-7f70-41ee-8c2c-5f4b5ab57550_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341319
+    },
+    "https://www.gsstore.org/galatasaray-klasik-elde-sallama-bayrak-150x200-u880143-u880143-209/": {
+        "name": "Galatasaray Klasik Elde Sallama Bayrak 150x200 U880143",
+        "price": 799.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/05/22/8146/871d0475-aea9-4775-92f2-5bda987c8f2a_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341338
+    },
+    "https://www.gsstore.org/galatasaray-deri-parcali-kabin-cantasi-u231293/": {
+        "name": "Galatasaray Deri Parçalı Kabin Çantası U231293",
+        "price": 3999.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/17230/f6b4d00e-842c-4541-9f43-c24080c24522_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.434136
+    },
+    "https://www.gsstore.org/galatasaray-forma-magnet-u251381/": {
+        "name": "Galatasaray Forma Magnet U251381",
+        "price": 99.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/17/159872/e0b44058-a8bf-46e8-ab35-b98f4322130d_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341373
+    },
+    "https://www.gsstore.org/galatasaray-aslan-magnet-u251377/": {
+        "name": "Galatasaray Aslan Magnet U251377",
+        "price": 99.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/17/159866/0e252f57-46b7-4e1c-8103-db2f839b61be_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341388
+    },
+    "https://www.gsstore.org/galatasaray-atki-magnet-u251379/": {
+        "name": "Galatasaray Atkı Magnet U251379",
+        "price": 99.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/17/159870/eb2fda0d-69d3-4dbe-82f4-8d9ab8becd7e_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.43414
+    },
+    "https://www.gsstore.org/galatasaray-zaha-003-pleksi-anahtarlik-u232301/": {
+        "name": "Galatasaray Zaha-003 Pleksi Anahtarlık U232301",
+        "price": 69.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/03/29/29162/743b9fcf-d53c-4bf4-bdd3-1ab1973a2350_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341416
+    },
+    "https://www.gsstore.org/galatasaray-telefon-kilifi-iphone-13-pro-u231314-1/": {
+        "name": "Galatasaray Telefon Kılıfı iPhone 13 Pro U231314",
+        "price": 299.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/17247/443b557a-e30f-4df6-8d46-7c08c07a2e66_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341433
+    },
+    "https://www.gsstore.org/galatasaray-elde-sallama-yatay-parcali-bayrak-100x150-u241390/": {
+        "name": "Galatasaray Elde Sallama Yatay Parçalı Bayrak 100x150 U241390",
+        "price": 399.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/05/26/74897/c5b48ee9-487e-496b-9b28-099ef4d0962e_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341445
+    },
+    "https://www.gsstore.org/galatasaray-deri-parcali-heybe-cantasi-u231295/": {
+        "name": "Galatasaray Deri Parçalı Heybe Çantası U231295",
+        "price": 1869.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/17235/7e4a8823-477e-422f-baab-ccddf0ccbc67_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341457
+    },
+    "https://www.gsstore.org/galatasaray-sampiyonluk-ahsap-2d-small-puzzle-u231330/": {
+        "name": "Galatasaray Şampiyonluk Ahşap 2D Small Puzzle U231330",
+        "price": 499.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/17295/8f1f4454-39a7-4978-8566-17a110f552d8_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341471
+    },
+    "https://www.gsstore.org/galatasaray-telefon-kilifi-iphone-13-pro-max-u231313-1/": {
+        "name": "Galatasaray Telefon Kılıfı iPhone 13 Pro Max U231313",
+        "price": 299.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/17247/443b557a-e30f-4df6-8d46-7c08c07a2e66_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341483
+    },
+    "https://www.gsstore.org/galatasaray-24-sampiyonluk-kare-bardak-altligi-u241362/": {
+        "name": "Galatasaray 24. Şampiyonluk Kare Bardak Altlığı U241362",
+        "price": 89.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/09/27/74933/d468f3c7-aa7b-4004-8379-4d653eeaba1a_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341497
+    },
+    "https://www.gsstore.org/galatasaray-telefon-kilifi-iphone-11-pro-u231319/": {
+        "name": "Galatasaray Telefon Kılıfı iPhone 11 Pro U231319",
+        "price": 299.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/17250/4312575e-aa82-426c-b1aa-fea890eedb66_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341514
+    },
+    "https://www.gsstore.org/galatasaray-deri-parcali-sirt-cantasi-u231292/": {
+        "name": "Galatasaray Deri Parçalı Sırt Çantası U231292",
+        "price": 3999.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/17059/8f01cf15-1eea-4075-bcb3-e5e95a1665f1_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341524
+    },
+    "https://www.gsstore.org/galatasaray-zaha-003-pleksi-zincirli-arac-susu-u232327/": {
+        "name": "Galatasaray Zaha-003 Pleksi Zincirli Araç Süsü U232327",
+        "price": 79.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/04/01/29209/e4d1f952-1106-4f6d-9a20-677801129467_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341538
+    },
+    "https://www.gsstore.org/galatasaray-cephe-degrade-balkon-bayrak-150x225-u241386/": {
+        "name": "Galatasaray Cephe Degrade Balkon Bayrak 150x225 U241386",
+        "price": 899.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/09/27/76059/d59a3211-f33e-4f17-a08b-47e2048a012e_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341547
+    },
+    "https://www.gsstore.org/maske-kirmizi-logo-u201244-u201244-999/": {
+        "name": "Maske Kırmızı Logo U201244",
+        "price": 24.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/9449/8cdc65da-4465-4cf2-b66a-40a08c445a75_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.434156
+    },
+    "https://www.gsstore.org/galatasaray-telefon-kilifi-iphone-11-pro-max-u231318-1/": {
+        "name": "Galatasaray Telefon Kılıfı iPhone 11 Pro Max U231318",
+        "price": 299.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/17247/443b557a-e30f-4df6-8d46-7c08c07a2e66_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341578
+    },
+    "https://www.gsstore.org/galatasaray-telefon-kilifi-iphone-11-pro-u231319-1/": {
+        "name": "Galatasaray Telefon Kılıfı iPhone 11 Pro U231319",
+        "price": 299.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/17247/443b557a-e30f-4df6-8d46-7c08c07a2e66_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341593
+    },
+    "https://www.gsstore.org/galatasaray-sacha-001-pleksi-zincirli-arac-susu-u232329/": {
+        "name": "Galatasaray Sacha-001 Pleksi Zincirli Araç Süsü U232329",
+        "price": 79.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/04/01/29218/de97d930-86c0-4aa6-aaed-52beb102f614_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.434161
+    },
+    "https://www.gsstore.org/galatasaray-telefon-kilifi-iphone-11-pro-max-u231318/": {
+        "name": "Galatasaray Telefon Kılıfı iPhone 11 Pro Max U231318",
+        "price": 299.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/17250/4312575e-aa82-426c-b1aa-fea890eedb66_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341624
+    },
+    "https://www.gsstore.org/galatasaray-telefon-kilifi-iphone-13-pro-max-u231313/": {
+        "name": "Galatasaray Telefon Kılıfı iPhone 13 Pro Max U231313",
+        "price": 299.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/17250/4312575e-aa82-426c-b1aa-fea890eedb66_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.434163
+    },
+    "https://www.gsstore.org/maske-siyah-u201242-u201242-999/": {
+        "name": "Maske Siyah U201242",
+        "price": 24.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/9445/da9f8c99-53e5-4ffb-93c9-308053b2ed61_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341645
+    },
+    "https://www.gsstore.org/galatasaray-24-sampiyonluk-bardak-altligi-yuvarlak-u241366/": {
+        "name": "Galatasaray 24. Şampiyonluk Bardak Altlığı /Yuvarlak U241366",
+        "price": 89.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/09/27/74937/b88cb395-fce4-4361-9481-8ebd51aa7596_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341657
+    },
+    "https://www.gsstore.org/galatasaray-cephe-degrade-bayrak-600x900-u241389/": {
+        "name": "Galatasaray Cephe Degrade Bayrak 600x900 U241389",
+        "price": 12999.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/09/27/74904/7b71e1b8-0e5f-4969-b4d9-8292dd128073_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341671
+    },
+    "https://www.gsstore.org/galatasaray-cephe-parcali-bayrak-300x450-u241393/": {
+        "name": "Galatasaray Cephe Parçalı Bayrak 300x450 U241393",
+        "price": 3499.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/09/27/74893/6043d166-b279-4746-8e58-951069008fd8_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341683
+    },
+    "https://www.gsstore.org/galatasaray-tete-design-fc-sal-atki-u232436/": {
+        "name": "Galatasaray TETE Design FC Şal Atkı U232436",
+        "price": 249.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/05/16/28680/eb7391a9-1ae4-4257-a40d-46783cd11672_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341693
+    },
+    "https://www.gsstore.org/galatasaray-icardi-anahtarlik-1-u232270/": {
+        "name": "Galatasaray Icardi Anahtarlık-1 U232270",
+        "price": 89.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/04/25/21283/7d9b467d-562e-4753-93f8-0f403e0b3f5f_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341707
+    },
+    "https://www.gsstore.org/galatasaray-cephe-parcali-bayrak-400x600-u241394/": {
+        "name": "Galatasaray Cephe Parçalı Bayrak 400x600 U241394",
+        "price": 5999.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/09/27/74894/4f29160d-276c-4030-89f9-e20a322b8c92_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.434172
+    },
+    "https://www.gsstore.org/galatasaray-sal-atki-ucl-grup-23-24-fc-bayern-munchen/": {
+        "name": "Galatasaray Şal Atkı UCL-Grup 23-24 FC Bayern München",
+        "price": 399.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/20/18066/373ad69a-50b0-44f5-919c-a3cac4c14ae1_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.434173
+    },
+    "https://www.gsstore.org/galatasaray-cephe-degrade-bayrak-300x450-u241387/": {
+        "name": "Galatasaray Cephe Degrade Bayrak 300x450 U241387",
+        "price": 3499.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/09/27/74890/79ab6918-e434-4e43-a579-1eb5b11757b7_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341748
+    },
+    "https://www.gsstore.org/galatasaray-cephe-degrade-bayrak-400x600-u241388/": {
+        "name": "Galatasaray Cephe Degrade Bayrak 400x600 U241388",
+        "price": 5999.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/09/27/74889/8e517f44-4d1e-4577-b70c-36e32937b770_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341762
+    },
+    "https://www.gsstore.org/galatasaray-25-sampiyonluk-duvar-saati-u251467-1/": {
+        "name": "Galatasaray 25. Şampiyonluk Duvar Saati U251467",
+        "price": 699.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/06/20/161676/9c43c496-f8ee-481c-8033-2be43e250fca_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341776
+    },
+    "https://www.gsstore.org/galatasaray-kupa-magnet-u251422/": {
+        "name": "Galatasaray Kupa Magnet U251422",
+        "price": 149.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/24/161392/8ce1f777-4eba-48f5-9cac-37a0153dfcd7_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341788
+    },
+    "https://www.gsstore.org/galatasaray-25-sampiyonluk-bardak-altligi-u251420-1/": {
+        "name": "Galatasaray 25. Şampiyonluk Bardak Altlığı U251420",
+        "price": 149.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/24/161389/b5e89a12-d7de-426a-bdcd-8e5f3de1558d_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.43418
+    },
+    "https://www.gsstore.org/galatasaray-25-sampiyonluk-magnet-u251419-1/": {
+        "name": "Galatasaray 25. Şampiyonluk Magnet U251419",
+        "price": 149.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/24/161387/71699afd-87e8-447f-be1c-7a07418e1965_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341815
+    },
+    "https://www.gsstore.org/galatasaray-25-sampiyonluk-anahtarlik-u251418/": {
+        "name": "Galatasaray 25. Şampiyonluk Anahtarlık U251418",
+        "price": 199.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/24/161386/8eb81282-ca18-4594-9989-e83162e8f182_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341831
+    },
+    "https://www.gsstore.org/galatasaray-25-sampiyonluk-elde-sallama-yatay-bayrak-150x200cm-u251357/": {
+        "name": "Galatasaray 25 Şampiyonluk Elde Sallama Yatay Bayrak 150X200cm U251357",
+        "price": 799.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/20/160631/20d89fe6-b1b4-4f9a-ade8-3673388a7126_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341855
+    },
+    "https://www.gsstore.org/galatasaray-25-sampiyonluk-cephe-bayrak-300x450cm-u251359/": {
+        "name": "Galatasaray 25 Şampiyonluk Cephe Bayrak 300X450cm U251359",
+        "price": 2999.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/18/160640/5604b3ed-96cd-4326-8d72-5defef7a8355_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341874
+    },
+    "https://www.gsstore.org/galatasaray-25-sampiyonluk-elde-sallama-yatay-bayrak-50x75cm-u251355/": {
+        "name": "Galatasaray 25 Şampiyonluk Elde Sallama Yatay Bayrak 50X75cm U251355",
+        "price": 149.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/18/160639/f3a804bb-5c09-413a-8573-80ebaff187fa_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341888
+    },
+    "https://www.gsstore.org/galatasaray-25-sampiyonluk-elde-sallama-yatay-bayrak-100x150cm-u251356/": {
+        "name": "Galatasaray 25 Şampiyonluk Elde Sallama Yatay Bayrak 100X150cm U251356",
+        "price": 399.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/18/160642/ee7a8534-7d1f-4c6a-b7c4-1d4107e64155_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341903
+    },
+    "https://www.gsstore.org/galatasaray-aslan-magnet-u251285/": {
+        "name": "Galatasaray Aslan Magnet U251285",
+        "price": 99.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/14/160211/57c9cd49-5350-462a-ba4d-62c98ce4167e_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.434192
+    },
+    "https://www.gsstore.org/2023-2024-super-lig-sampiyonluk-kupasi-minyatur-28-cm-kutulu/": {
+        "name": "2023-2024 Süper Lig Şampiyonluk Kupası Minyatür 28 cm (kutulu)",
+        "price": 6999.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/08/19/77904/55d47ba3-7716-42c1-8925-b04697e4ac06_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341934
+    },
+    "https://www.gsstore.org/galatasaray-5-li-sticker-10-10-zarfli-u241405/": {
+        "name": "Galatasaray 5`li Sticker 10*10 (Zarflı) U241405",
+        "price": 99.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/07/08/74960/3cc0f3a1-fc7c-4cc7-be37-87cdd70a15b0_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.434195
+    },
+    "https://www.gsstore.org/galatasaray-dikey-balkon-bayragi-150-225-u880149/": {
+        "name": "Galatasaray Dikey Balkon Bayrağı 150*225 U880149",
+        "price": 899.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/05/03/65401/1ac52ec2-6b63-4a36-8143-80c02358d41e_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.434196
+    },
+    "https://www.gsstore.org/galatasaray-logo-002-pleksi-anahtarlik-u232311/": {
+        "name": "Galatasaray Logo-002 Pleksi Anahtarlık U232311",
+        "price": 69.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/03/29/29185/43ee1767-d039-45be-b15a-1d825ed1ae60_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.434197
+    },
+    "https://www.gsstore.org/galatasaray-baskili-kalp-yastik-u231375/": {
+        "name": "Galatasaray Baskılı Kalp Yastık U231375",
+        "price": 699.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/01/12/21589/7a10a608-8915-44b9-83b3-22b745833781_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341984
+    },
+    "https://www.gsstore.org/galatasaray-aslanli-kenarlari-cam-telefon-kilif-u231444/": {
+        "name": "Galatasaray Aslanlı Kenarları Cam Telefon Kılıf U231444",
+        "price": 499.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/11/15/20523/db5aba1f-33ec-45ea-babe-43430b9f37f7_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4341996
+    },
+    "https://www.gsstore.org/galatasaray-icardi-cam-telefon-kilif-u231445/": {
+        "name": "Galatasaray Icardi Cam Telefon Kılıf U231445",
+        "price": 499.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/11/15/20540/8f78738a-1161-4fbe-ae06-9f556a787c42_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4342008
+    },
+    "https://www.gsstore.org/galatasaray-aslanli-kenarlari-cam-telefon-kilif-u231443/": {
+        "name": "Galatasaray Aslanlı Kenarları Cam Telefon Kılıf U231443",
+        "price": 499.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/11/29/20505/93e3f230-f108-4230-aa01-6fb7b12390e1_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.434203
+    },
+    "https://www.gsstore.org/galatasaray-logolu-telefon-kilif-u231442/": {
+        "name": "Galatasaray Logolu Telefon Kılıf U231442",
+        "price": 399.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/11/15/20496/d78e6274-85f6-41e6-a9b5-9c73371c6648_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4342043
+    },
+    "https://www.gsstore.org/galatasaray-telefon-kilif-u231441/": {
+        "name": "Galatasaray Telefon Kılıf U231441",
+        "price": 399.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/11/15/20492/df6751ee-52e1-4753-822c-88c889f516f1_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.434206
+    },
+    "https://www.gsstore.org/galatasaray-zaha-cam-telefon-kilif-u231436/": {
+        "name": "Galatasaray Zaha Cam Telefon Kılıf U231436",
+        "price": 499.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/11/15/20418/94a4f99d-ef02-4a2d-a003-16bb43178f3d_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4342074
+    },
+    "https://www.gsstore.org/galatasaray-icardi-9-cam-telefon-kilif-u231434/": {
+        "name": "Galatasaray Icardi 9 Cam Telefon Kılıf U231434",
+        "price": 499.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/11/15/20383/3c319293-0c6b-4f15-931a-ece1af3bd417_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4342089
+    },
+    "https://www.gsstore.org/galatasaray-icardi-cam-telefon-kilif-u231435/": {
+        "name": "Galatasaray Icardi Cam Telefon Kılıf U231435",
+        "price": 499.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/11/15/20395/94235a44-9f29-458a-9737-c17bd417ad9d_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4342103
+    },
+    "https://www.gsstore.org/galatasaray-logolu-cam-telefon-kilif-u231432/": {
+        "name": "Galatasaray Logolu Cam Telefon Kılıf U231432",
+        "price": 499.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/11/15/20352/f70ec6e2-d2c1-4f57-b488-9dc30792ea66_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.434211
+    },
+    "https://www.gsstore.org/galatasaray-ataturk-imzali-telefon-kilif-u231431/": {
+        "name": "Galatasaray Atatürk İmzalı Telefon Kılıf U231431",
+        "price": 399.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/11/15/20339/047d1b7f-f4f6-47e7-9aff-20c46d020bfa_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4342127
+    },
+    "https://www.gsstore.org/galatasaray-sixt-logolu-cam-telefon-kilif-u231433/": {
+        "name": "Galatasaray Sixt Logolu Cam Telefon Kılıf U231433",
+        "price": 499.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/11/15/20379/24036c10-5480-42e0-9f32-a52dcb437e32_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4342136
+    },
+    "https://www.gsstore.org/galatasaray-100-yil-ataturk-cam-telefon-kilif-u231430/": {
+        "name": "Galatasaray 100.Yıl Atatürk Cam Telefon Kılıf U231430",
+        "price": 499.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/11/15/20327/70203d33-9c01-46a2-931f-49f834e50d1b_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4342148
+    },
+    "https://www.gsstore.org/galatasaray-100-yil-ataturk-cam-telefon-kilif-u231430-1/": {
+        "name": "Galatasaray 100.Yıl Atatürk Cam Telefon Kılıf U231430",
+        "price": 499.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/11/15/20313/3a4e316d-26cd-47d3-8003-ac6acb043405_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4342165
+    },
+    "https://www.gsstore.org/galatasaray-t-masa-bayragi-flama-8x32cm-u231460/": {
+        "name": "Galatasaray T Masa Bayrağı- Flama 8x32cm U231460",
+        "price": 279.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/24/20196/5ebdff19-aff6-46fa-9570-4166794f155d_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4342182
+    },
+    "https://www.gsstore.org/galatasaray-erkek-ipek-kravat-u221484-2/": {
+        "name": "Galatasaray Erkek İpek Kravat U221484",
+        "price": 694.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/04/16/20151/a592f635-7d75-4e83-b8d4-854775eb8214_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4342191
+    },
+    "https://www.gsstore.org/galatasaray-ciftli-masa-bayragi-u191238-u191238-999/": {
+        "name": "Galatasaray Çiftli Masa Bayrağı U191238",
+        "price": 279.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/02/05/11339/373912cc-142e-4722-9f66-c17a91949e1d_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.43422
+    },
+    "https://www.gsstore.org/galatasaray-deri-aslanli-anahtarlik-u212240-u212240-010/": {
+        "name": "Galatasaray Deri Aslanlı Anahtarlık U212240",
+        "price": 229.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/5006/dab81456-36d4-43f8-beeb-36a1f9b5a475_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4342213
+    },
+    "https://www.gsstore.org/galatasaray-rasel-balkon-bayragi-300-450-u880145-u880145-209/": {
+        "name": "Galatasaray Raşel Balkon Bayrağı 300*450 U880145",
+        "price": 3499.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/8147/2793206e-ee73-4d7d-80a1-edd69c05afb0_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.4342222
+    },
+    "https://www.gsstore.org/galatasaray-rasel-balkon-bayragi-600-900-u880147-u880147-209/": {
+        "name": "Galatasaray Raşel Balkon Bayrağı 600*900 U880147",
+        "price": 12999.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/8147/2793206e-ee73-4d7d-80a1-edd69c05afb0_size360x480_cropCenter.jpg",
+        "updated_at": 1768159291.434223
     }
 }
