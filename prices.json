@@ -2186,7 +2186,7 @@
     "https://www.gsstore.org/gs-sampiyonlar-ligi-ucl-zip-hoodie-230612k-2/": {
         "name": "GS Şampiyonlar Ligi UCL Zip Hoodie 230612K",
         "price": 1999.99,
-        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/09/29/18013/cd3e0247-0891-421f-a40c-a48b5462e050_size360x480_cropCenter.jpg",
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/09/29/18013/0e80cf8e-f60b-4b6e-8e38-8c95a906adae_size360x480_cropCenter.jpg",
         "updated_at": 1767733113.7160974
     },
     "https://www.gsstore.org/galatasaray-erkek-sweatshirt-12257102/": {
@@ -3130,5 +3130,11 @@
         "price": 12999.99,
         "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2023/10/11/8147/2793206e-ee73-4d7d-80a1-edd69c05afb0_size360x480_cropCenter.jpg",
         "updated_at": 1768159291.434223
+    },
+    "https://www.gsstore.org/galatasaray-aslan-anahtarlik-u251376/": {
+        "name": "Galatasaray Aslan Anahtarlık U251376",
+        "price": 99.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/05/17/159868/a116aebd-ecc9-41b3-9e3d-41a569ecadb7_size360x480_cropCenter.jpg",
+        "updated_at": 1768199437.5938857
     }
 }
