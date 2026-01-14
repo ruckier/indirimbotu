@@ -926,7 +926,7 @@
     "https://www.gsstore.org/galatasaray-erkek-deniz-sortu-e251084-5/": {
         "name": "Galatasaray Erkek Deniz Şortu E251084",
         "price": 899.99,
-        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/04/25/156639/94b644b7-2b36-4ca2-96cc-8befa9afbd6d_size360x480_cropCenter.jpg",
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/04/25/156639/56cc99be-e4f4-45a8-9900-d1efc174fa59_size360x480_cropCenter.jpg",
         "updated_at": 1767733113.7156684
     },
     "https://www.gsstore.org/galatasaray-erkek-deniz-sortu-e251083-3/": {
@@ -3596,7 +3596,7 @@
     "https://www.gsstore.org/galatasaray-match-day-t-shirt-e232276/": {
         "name": "Galatasaray Match Day T-Shirt E232276",
         "price": 899.99,
-        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/05/21/27927/bbdb03d2-7a68-425b-95c7-ce35aac3e6a4_size360x480_cropCenter.jpg",
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/05/21/27927/028d7280-42ac-4d5e-91c4-6980f56823ab_size360x480_cropCenter.jpg",
         "updated_at": 1768227663.1674273
     },
     "https://www.gsstore.org/galatasaray-erkek-t-shirt-e232032-1/": {
@@ -3850,5 +3850,17 @@
         "price": 1299.99,
         "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/11/20/211323/417d9ff5-e1f3-4ef1-9d6c-af656eb15ced_size360x480_cropCenter.jpg",
         "updated_at": 1768302980.0585613
+    },
+    "https://www.gsstore.org/gsstore-x-reflect-studio-aslan-hoodie-e242400-12/": {
+        "name": "GSSTORE X Reflect Studio Aslan Hoodie E242400",
+        "price": 2199.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2025/04/15/159749/6eaf27e7-a6f5-4fda-bbda-d477fd382634_size360x480_cropCenter.jpg",
+        "updated_at": 1768393962.66019
+    },
+    "https://www.gsstore.org/galatasaray-erkek-sweatshirt-e242133/": {
+        "name": "Galatasaray Erkek Sweatshirt E242133",
+        "price": 1999.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/11/29/150709/7304a5c2-96d2-4590-8895-7077a2dc54db_size360x480_cropCenter.jpg",
+        "updated_at": 1768393962.6604905
     }
 }
