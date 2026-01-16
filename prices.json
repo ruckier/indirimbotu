@@ -1994,7 +1994,7 @@
     "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241139-8/": {
         "name": "Galatasaray Erkek T-Shirt E241139",
         "price": 799.99,
-        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/06/16/75298/66802061-c0cf-479d-9edf-8e6bea039a7a_size360x480_cropCenter.jpg",
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/06/27/75299/b1d36b3c-1c68-46b7-8f1b-b47eef2a5b70_size360x480_cropCenter.jpg",
         "updated_at": 1767733113.7160757
     },
     "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241125-5/": {
@@ -2024,7 +2024,7 @@
     "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241114-7/": {
         "name": "Galatasaray Erkek T-Shirt E241114",
         "price": 649.99,
-        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/06/16/75225/c9caa9a8-70f7-467d-841c-c0fea44a0399_size360x480_cropCenter.jpg",
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/06/16/75225/c77dea6b-abc2-42db-9228-1c315dc56d78_size360x480_cropCenter.jpg",
         "updated_at": 1767733113.716079
     },
     "https://www.gsstore.org/galatasaray-erkek-t-shirt-e241113-3/": {
@@ -4600,5 +4600,11 @@
         "price": 599.99,
         "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/09/27/74945/5b8dc9b7-99fc-4112-972a-d39b15813da4_size360x480_cropCenter.jpg",
         "updated_at": 1768515549.7981718
+    },
+    "https://www.gsstore.org/galatasaray-erkek-triko-ceket-e232179-1/": {
+        "name": "Galatasaray Erkek Triko Ceket E232179",
+        "price": 1299.99,
+        "image": "https://akn-gsstore.a-cdn.akinoncloud.com/products/2024/02/08/19664/94b40bf6-bf20-46c9-828c-79a4d2d4e555_size360x480_cropCenter.jpg",
+        "updated_at": 1768544845.6187818
     }
 }
